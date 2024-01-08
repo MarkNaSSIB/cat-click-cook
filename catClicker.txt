@@ -1,0 +1,38 @@
+Let's make a game!
+	name:cat-click-cook
+	author:mark boutros
+	desc:a clicker game for cat lovers and chefs alike
+	created:01/05/2024
+	updated:01/05/2024
+	version:0.1
+
+Settings
+	building cost increase:110%
+	building cost refund:100%
+
+Layout
+	use default
+
+Buttons
+	*doughbutton
+	name:Kneed a Dough Ball
+	desc:Click this ball of dough to knead it, yielding a bread!
+	onclick:anim icon wobble
+	onclick:yield 1 bread
+	no text
+	class:bigButton hasFlares
+	icon class:shadowed
+
+Resources
+	*bread|bread
+	name:Bread|Bread
+	desc:This is your bread. You can use them to purchase things, the goal is to have as much bread as possible!
+	show earned
+
+Shinies
+
+Buildings
+
+Upgrades
+
+Achievements
