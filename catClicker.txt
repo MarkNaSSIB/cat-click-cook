@@ -17,7 +17,6 @@ Buttons
 	*doughbutton
 	name:Kneed a Dough Ball
 	desc:Click this ball of dough to knead it, yielding a bread!
-	onclick:anim icon wobble
 	onclick:yield 1 bread
 	no text
 	class:bigButton hasFlares
