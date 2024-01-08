@@ -14,24 +14,45 @@ Layout
 	use default
 
 Buttons
-	*doughbutton
+	*doughButton
 	name:Kneed a Dough Ball
 	desc:Click this ball of dough to knead it, yielding a bread!
 	onclick:yield 1 bread
+	icon:cat-icon.jpg
 	no text
 	class:bigButton hasFlares
 	icon class:shadowed
 
 Resources
-	*bread|bread
-	name:Bread|Bread
+	*bread|breads
+	name:Bread|Breads
 	desc:This is your bread. You can use them to purchase things, the goal is to have as much bread as possible!
 	show earned
 
 Shinies
 
 Buildings
+	*TEMPLATE
+		on click:anim glow
+		
+	*kitten|kittens
+		name:Kitten|Kittens
+		desc:A tiny little kitten.<//><b>Effect:</b><.>Produces 1 bread every 10 seconds.
+		icon:cat-icon.jpg
+		cost:15 breads
+		on tick:yield 0.1 bread
+		unlocked
 
 Upgrades
+	*TEMPLATE
+		on click:anim glow
+	
+	*catnip
+		name:CatNip
+		desc:A nice little supplement to your cats' diet.<//><b>Effect:</b><.>+1 bread/click
+		icon:bread-icon.jpg
+		cost:100 breads
+		passive:increase bread yield of breadButton by 1
+		req:10 breads:earned
 
 Achievements
