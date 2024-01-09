@@ -64,6 +64,7 @@ Buildings
 	*shorthair|shorthairs
 		name:Domestic Shorthair|Domestic Shorthairs
 		desc:One of the most common house cats in the world!<//><b>Effect:</b><.>Produces 5 bread every 10 seconds.
+		icon:icons[0,3]
 		cost:50 bread
 		on tick:yield 0.5 bread
 		req:50 bread:earned
@@ -71,6 +72,7 @@ Buildings
 	*munchkin|munchkins
 		name:Munchkin|Munchkins
 		desc:Also known as the 'Sausage Cat', munchkins are known for the small legs!<//><b>Effect:</b><.>Produces 1 bread per second.
+		icon:icons[0,5]
 		cost:100 bread
 		on tick:yield 1 bread
 		req:100 bread:earned
