@@ -35,7 +35,7 @@ Buttons
 	name:Kneed a Dough Ball
 	desc:Click this ball of dough to knead it, yielding a bread!
 	on click:yield 1 bread
-	icon:cat-icon.jpg
+	icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/bread-icon.jpg?raw=true
 	no text
 	class:bigButton hasFlares
 	icon class:shadowed
@@ -55,7 +55,7 @@ Buildings
 	*kitten|kittens
 		name:Kitten|Kittens
 		desc:A tiny little kitten.<//><b>Effect:</b><.>Produces 1 bread every 10 seconds.
-		icon:cat-icon.jpg
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/cat-icon.jpg?raw=true
 		cost:10 bread
 		on tick:yield 0.1 bread
 		unlocked
