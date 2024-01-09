@@ -49,7 +49,6 @@ Resources
 Shinies
 
 Buildings
-	header:Cats
 	*TEMPLATE
 		on click:anim glow
 		
