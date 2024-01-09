@@ -74,7 +74,6 @@ Buildings
 		name:Munchkin|Munchkins
 		desc:Also known as the 'Sausage Cat', munchkins are known for the small legs!<//><b>Effect:</b><.>Produces 1 bread per second.
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		icon:icons[0,5]
 		cost:100 bread
 		on tick:yield 1 bread
 		req:100 bread:earned
@@ -154,7 +153,7 @@ Buildings
 
 	*chinese|chinese
 		name:Chinese Mtn Cat|Chinese Mtn Cats
-		desc:*Insert politically correct joke here*<//><b>Effect:</b><.>Produces 10000 bread per second.
+		desc:(Insert politically correct joke here)<//><b>Effect:</b><.>Produces 10000 bread per second.
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost: 1000000 bread
 		on tick:yield 100000 bread
