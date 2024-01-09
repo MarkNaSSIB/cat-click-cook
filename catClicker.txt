@@ -10,7 +10,7 @@ Settings
 	background:cat-icon.jpg
 	building cost increase:110%
 	building cost refund:100%
-	spritesheet:icons,48 by 48, https://github.com/MarkNaSSIB/cat-click-cook/blob/main/9-cats.png?raw=true
+	spritesheet:icons, 48 by 48, https://github.com/MarkNaSSIB/cat-click-cook/blob/main/9-cats.png?raw=true
 
 Layout
 	*main
