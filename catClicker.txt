@@ -62,32 +62,32 @@ Buildings
 
 	*shorthair|shorthairs
 		name:Domestic Shorthair|Domestic Shorthairs
-		desc:One of the most common house cats in the world!<//><b>Effect:</b><.>Produces 2.5 bread every 10 seconds.
-		cost:25 bread
-		on tick:yield 0.25 bread
-		req:25 bread:earned
+		desc:One of the most common house cats in the world!<//><b>Effect:</b><.>Produces 5 bread every 10 seconds.
+		cost:50 bread
+		on tick:yield 0.5 bread
+		req:50 bread:earned
 
 	*munchkin|munchkins
 		name:Munchkin|Munchkins
-		desc:Also known as the 'Sausage Cat', munchkins are known for the small legs!<//><b>Effect:</b><.>Produces 5 bread every 10 seconds.
-		cost:50 bread
-		on tick:yield 0.50 bread
-		req:50 bread:earned
+		desc:Also known as the 'Sausage Cat', munchkins are known for the small legs!<//><b>Effect:</b><.>Produces 1 bread per second.
+		cost:100 bread
+		on tick:yield 1 bread
+		req:100 bread:earned
 
 	*ragdoll|ragdolls
 		name:Ragdoll|Ragdolls
-		desc:A very affectionate cat, known for their receptiveness to handling.<//><b>Effect:</b><.>Produces 7.5 bread every 10 seconds.
-		cost:75 bread
-		on tick:yield 0.75 bread
-		req:75 bread:earned
+		desc:A very affectionate cat, known for their receptiveness to handling.<//><b>Effect:</b><.>Produces 2 bread per second.
+		cost:200 bread
+		on tick:yield 2 bread
+		req:200 bread:earned
 
 
 	*bengal|bengals
 		name:Bengal|Bengals
-		desc:One of the rarest and most expensive house cats in the world<//><b>Effect:</b><.>Produces 1 bread every second.
-		cost:100 bread
-		on tick:yield 1 bread
-		req:100 bread:earned
+		desc:One of the rarest and most expensive house cats in the world<//><b>Effect:</b><.>Produces 5 bread every second.
+		cost:500 bread
+		on tick:yield 5 bread
+		req:500 bread:earned
 
 Upgrades
 	*TEMPLATE
