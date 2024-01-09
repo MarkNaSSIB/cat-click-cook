@@ -94,6 +94,69 @@ Buildings
 		on tick:yield 5 bread
 		req:500 bread:earned
 
+	*scottish|scots
+		name:Scottish Fold|Scottish Folds
+		desc:1989<//><b>Effect:</b><.>Produces 10 bread per second.
+		cost:1000 bread
+		on tick:yield 10 bread
+		req:1000 bread:earned
+
+	*toyger|toygers
+		name:Toyger|Toygers
+		desc:A toy Tiger!<//><b>Effect:</b><.>Produces 25 bread per second.
+		cost:2500 bread
+		on tick:yield 25 bread
+		req:2500 bread:earned
+	
+	*russian|russians
+		name:Russian Blue|Russian Blues
+		desc:Priviet<//><b>Effect:</b><.>Produces 50 bread per second.
+		cost:5000 bread
+		on tick:yield 50 bread
+		req:5000 bread:earned
+
+	*egyptian|egyptians
+		name:Egyptian Mau|Egyptian Mau
+		desc:Ahlan wa Sahlan<//><b>Effect:</b><.>Produces 100 bread per second.
+		cost:10000 bread
+		on tick:yield 100 bread
+		req:10000 bread:earned
+	
+	*wildcat|wildcats
+		name:Wildcat|Wildcats
+		desc:If not friend, why friend shaped?<//><b>Effect:</b><.>Produces 500 bread per second.
+		cost:50000 bread
+		on tick:yield 500 bread
+		req:50000 bread:earned
+
+	*jungle|jungles
+		name:Jungle Cat|Jungle Cats
+		desc:"Meow" -The Trees<//><b>Effect:</b><.>Produces 1000 bread per second.
+		cost:100000 bread
+		on tick:yield 1000 bread
+		req:100000 bread:earned
+
+	*blackFoot|blackFoot
+		name:Black-Footed Cat|Black-Footed Cats
+		desc:Guess what color their feet are?<//><b>Effect:</b><.>Produces 5000 bread per second.
+		cost:500000 bread
+		on tick:yield 5000 bread
+		req:500000 bread:earned
+
+	*chinese|chinese
+		name:Chinese Mountain Cat|Chinese Mountain Cats
+		desc:Priviet<//><b>Effect:</b><.>Produces 10000 bread per second.
+		cost: 1000000 bread
+		on tick:yield 100000 bread
+		req:1000000 bread:earned
+
+	*sand|sands
+		name:Sand Cat|Sand Cats
+		desc:Mammalia Carnivora Felidae Felinae Felis Margarita<//><b>Effect:</b><.>Produces 50000 bread per second.
+		cost:5000000 bread
+		on tick:yield 50000 bread
+		req:5000000 bread:earned
+
 Upgrades
 	*TEMPLATE
 		on click:anim glow
