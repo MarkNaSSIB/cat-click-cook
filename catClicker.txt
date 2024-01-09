@@ -154,7 +154,7 @@ Buildings
 
 	*chinese|chinese
 		name:Chinese Mountain Cat|Chinese Mountain Cats
-		desc:Priviet<//><b>Effect:</b><.>Produces 10000 bread per second.
+		desc:*Insert politically correct joke here*<//><b>Effect:</b><.>Produces 10000 bread per second.
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost: 1000000 bread
 		on tick:yield 100000 bread
