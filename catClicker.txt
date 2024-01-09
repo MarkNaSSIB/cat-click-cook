@@ -153,7 +153,7 @@ Buildings
 		req:500000 bread:earned
 
 	*chinese|chinese
-		name:Chinese Mountain Cat|Chinese Mountain Cats
+		name:Chinese Mtn Cat|Chinese Mtn Cats
 		desc:*Insert politically correct joke here*<//><b>Effect:</b><.>Produces 10000 bread per second.
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost: 1000000 bread
