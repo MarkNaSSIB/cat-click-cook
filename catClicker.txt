@@ -12,7 +12,23 @@ Settings
 	building cost refund:100%
 
 Layout
-	use default
+	*main
+  		contains:res, buttons
+	*res
+		contains:Resources
+		class:fullWidth
+	*buttons
+		contains:Buttons
+	*store
+		contains:buildings, upgrades
+	*buildings
+		contains:BulkDisplay, Buildings
+		header:Buildings
+		tooltip origin:left
+	*upgrades
+		contains:Upgrades
+		header:Upgrades
+		costs:hide
 
 Buttons
 	*doughButton
@@ -25,14 +41,15 @@ Buttons
 	icon class:shadowed
 
 Resources
-	*bread|breads
-	name:Bread|Breads
+	*bread
+	name:Bread|Bread
 	desc:This is your bread. You can use them to purchase things, the goal is to have as much bread as possible!
 	show earned
 
 Shinies
 
 Buildings
+	header:Cats
 	*TEMPLATE
 		on click:anim glow
 		
@@ -40,9 +57,38 @@ Buildings
 		name:Kitten|Kittens
 		desc:A tiny little kitten.<//><b>Effect:</b><.>Produces 1 bread every 10 seconds.
 		icon:cat-icon.jpg
-		cost:15 breads
+		cost:10 bread
 		on tick:yield 0.1 bread
 		unlocked
+
+	*shorthair|shorthairs
+		name:Domestic Shorthair|Domestic Shorthairs
+		desc:One of the most common house cats in the world!<//><b>Effect:</b><.>Produces 2.5 bread every 10 seconds.
+		cost:25 bread
+		on tick:yield 0.25 bread
+		req:25 bread:earned
+
+	*munchkin|munchkins
+		name:Munchkin|Munchkins
+		desc:Also known as the 'Sausage Cat', munchkins are known for the small legs!<//><b>Effect:</b><.>Produces 5 bread every 10 seconds.
+		cost:50 bread
+		on tick:yield 0.50 bread
+		req:50 bread:earned
+
+	*ragdoll|ragdolls
+		name:Ragdoll|Ragdolls
+		desc:A very affectionate cat, known for their receptiveness to handling.<//><b>Effect:</b><.>Produces 7.5 bread every 10 seconds.
+		cost:75 bread
+		on tick:yield 0.75 bread
+		req:75 bread:earned
+
+
+	*bengal|bengals
+		name:Bengal|Bengals
+		desc:One of the rarest and most expensive house cats in the world<//><b>Effect:</b><.>Produces 1 bread every second.
+		cost:100 bread
+		on tick:yield 1 bread
+		req:100 bread:earned
 
 Upgrades
 	*TEMPLATE
@@ -51,9 +97,9 @@ Upgrades
 	*catnip
 		name:CatNip
 		desc:A nice little supplement to your cats' diet.<//><b>Effect:</b><.>+1 bread/click
-		icon:bread-icon.jpg
-		cost:100 breads
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/bread-icon.jpg?raw=true
+		cost:100 bread
 		passive:increase yield of doughButton by 1
-		req:10 breads:earned
+		req:10 bread:earned
 
 Achievements
