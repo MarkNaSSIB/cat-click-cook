@@ -57,7 +57,7 @@ Buildings
 	*kitten|kittens
 		name:Kitten|Kittens
 		desc:A tiny little kitten.<//><b>Effect:</b><.>Produces 1 bread every 10 seconds.
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/cat-icon.jpg?raw=true
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:10 bread
 		on tick:yield 0.1 bread
 		unlocked
@@ -65,7 +65,7 @@ Buildings
 	*shorthair|shorthairs
 		name:Domestic Shorthair|Domestic Shorthairs
 		desc:One of the most common house cats in the world!<//><b>Effect:</b><.>Produces 5 bread every 10 seconds.
-		icon:icons[0,3]
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:50 bread
 		on tick:yield 0.5 bread
 		req:50 bread:earned
@@ -73,6 +73,7 @@ Buildings
 	*munchkin|munchkins
 		name:Munchkin|Munchkins
 		desc:Also known as the 'Sausage Cat', munchkins are known for the small legs!<//><b>Effect:</b><.>Produces 1 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		icon:icons[0,5]
 		cost:100 bread
 		on tick:yield 1 bread
@@ -90,6 +91,7 @@ Buildings
 	*bengal|bengals
 		name:Bengal|Bengals
 		desc:One of the rarest and most expensive house cats in the world<//><b>Effect:</b><.>Produces 5 bread every second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true		
 		cost:500 bread
 		on tick:yield 5 bread
 		req:500 bread:earned
@@ -97,6 +99,7 @@ Buildings
 	*scottish|scots
 		name:Scottish Fold|Scottish Folds
 		desc:1989<//><b>Effect:</b><.>Produces 10 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:1000 bread
 		on tick:yield 10 bread
 		req:1000 bread:earned
@@ -104,6 +107,7 @@ Buildings
 	*toyger|toygers
 		name:Toyger|Toygers
 		desc:A toy Tiger!<//><b>Effect:</b><.>Produces 25 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:2500 bread
 		on tick:yield 25 bread
 		req:2500 bread:earned
@@ -111,6 +115,7 @@ Buildings
 	*russian|russians
 		name:Russian Blue|Russian Blues
 		desc:Priviet<//><b>Effect:</b><.>Produces 50 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:5000 bread
 		on tick:yield 50 bread
 		req:5000 bread:earned
@@ -118,6 +123,7 @@ Buildings
 	*egyptian|egyptians
 		name:Egyptian Mau|Egyptian Mau
 		desc:Ahlan wa Sahlan<//><b>Effect:</b><.>Produces 100 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:10000 bread
 		on tick:yield 100 bread
 		req:10000 bread:earned
@@ -125,6 +131,7 @@ Buildings
 	*wildcat|wildcats
 		name:Wildcat|Wildcats
 		desc:If not friend, why friend shaped?<//><b>Effect:</b><.>Produces 500 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:50000 bread
 		on tick:yield 500 bread
 		req:50000 bread:earned
@@ -132,6 +139,7 @@ Buildings
 	*jungle|jungles
 		name:Jungle Cat|Jungle Cats
 		desc:"Meow" -The Trees<//><b>Effect:</b><.>Produces 1000 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:100000 bread
 		on tick:yield 1000 bread
 		req:100000 bread:earned
@@ -139,6 +147,7 @@ Buildings
 	*blackFoot|blackFoot
 		name:Black-Footed Cat|Black-Footed Cats
 		desc:Guess what color their feet are?<//><b>Effect:</b><.>Produces 5000 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:500000 bread
 		on tick:yield 5000 bread
 		req:500000 bread:earned
@@ -146,6 +155,7 @@ Buildings
 	*chinese|chinese
 		name:Chinese Mountain Cat|Chinese Mountain Cats
 		desc:Priviet<//><b>Effect:</b><.>Produces 10000 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost: 1000000 bread
 		on tick:yield 100000 bread
 		req:1000000 bread:earned
@@ -153,6 +163,7 @@ Buildings
 	*sand|sands
 		name:Sand Cat|Sand Cats
 		desc:Mammalia Carnivora Felidae Felinae Felis Margarita<//><b>Effect:</b><.>Produces 50000 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:5000000 bread
 		on tick:yield 50000 bread
 		req:5000000 bread:earned
