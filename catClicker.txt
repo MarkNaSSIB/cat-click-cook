@@ -37,7 +37,7 @@ Buttons
 	desc:Click this ball of dough to knead it, yielding a bread!
 	on click:anim icon wibble
 	on click:yield 1 bread
-	icon:background:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/256x256.png?raw=true
+	icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/256x256.png?raw=true
 	no text
 	class:bigButton hasFlares
 	icon class:shadowed
