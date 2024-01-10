@@ -6,6 +6,8 @@ Let's make a game!
 	updated:01/05/2024
 	version:0.1
 
+	//link to play: https://orteil.dashnet.org/igm/?g=https://raw.githubusercontent.com/MarkNaSSIB/cat-click-cook/main/catClicker.txt
+
 Settings
 	background:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/1600x800.png?raw=true
 	building cost increase:110%
@@ -226,7 +228,7 @@ Buildings
 
 	*cheetah|cheetahs
 		name:Cheetah|Cheetahs
-		desc:The fastest land animal on the planet, capable of going 0 - 60 mph in under 3 seconds.<//><b>Effect:</b><.>Produces <b>10000000000 bread</b> per second.<.>[cheetahs] give you <b>[cheetahs*10000000000] bread</b> per second.([cheetahs*10000000000/bread:ps]% of total BPS.)
+		desc:The fastest land animal on the planet, capable of going 0 - 60 mph in under 3 seconds.<//><b>Effect:</b><.>Produces <b>10000000000 bread</b> per second.<.>[cheetahs] give you <b>[cheetahs*10000000000] bread</b> per second.(<b>[(cheetahs*10000000000)/bread:ps]%</b> of total BPS.)
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:1000000000000 bread
 		on tick:yield 10000000000 bread
