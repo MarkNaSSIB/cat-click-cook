@@ -58,7 +58,7 @@ Buildings
 		
 	*kitten|kittens
 		name:Kitten|Kittens
-		desc:A tiny little kitten.<//><b>Effect:</b><.>Produces <b>1 bread</b> every 10 seconds.<.>[kittens] give you <b>[kittens/10] bread</b> per second.
+		desc:A tiny little kitten.<//><b>Effect:</b><.>Produces <b>1 bread</b> every 10 seconds.<.>[kittens] give you <b>[kittens/10] bread</b> per second.(<b>[kittens/10/bread:ps]%</b> of total BPS.)
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:10 bread
 		on tick:yield 0.1 bread
