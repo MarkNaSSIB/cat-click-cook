@@ -349,7 +349,7 @@ Upgrades
 		desc:Just for u shaggy<//><b>Effect:</b><.>One time stimmy
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:1 bread
-		on click:gain 1000000
+		on click:gain 1000000 bread
 		req:1 bread:earned
 
 
