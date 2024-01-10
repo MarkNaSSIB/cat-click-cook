@@ -228,7 +228,7 @@ Buildings
 
 	*cheetah|cheetahs
 		name:Cheetah|Cheetahs
-		desc:The fastest land animal on the planet, capable of going 0 - 60 mph in under 3 seconds.<//><b>Effect:</b><.>Produces <b>10000000000 bread</b> per second.<.>[cheetahs] give you <b>[cheetahs*10000000000] bread</b> per second.<.>(<b>[(cheetahs*10000000000)/bread:ps]%</b> of total BPS.)
+		desc:The fastest land animal on the planet, capable of going 0 - 60 mph in under 3 seconds.<//><b>Effect:</b><.>Produces <b>10000000000 bread</b> per second.<.>[cheetahs] give you <b>[cheetahs*10000000000] bread</b> per second.(<b>[(cheetahs*10000000000)/bread:ps]%</b> of total BPS.)
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:1000000000000 bread
 		on tick:yield 10000000000 bread
