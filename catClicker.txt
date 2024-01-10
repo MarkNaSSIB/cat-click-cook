@@ -151,9 +151,9 @@ Buildings
 		on tick:yield 5000 bread
 		req:500000 bread:earned
 
-	*chinese|chinese
+	*mtncat|mtncats
 		name:Chinese Mtn Cat|Chinese Mtn Cats
-		desc:(Insert politically correct joke here)<//><b>Effect:</b><.>Produces 10000 bread per second.
+		desc:Insert politically correct joke here<//><b>Effect:</b><.>Produces 10000 bread per second.
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost: 1000000 bread
 		on tick:yield 100000 bread
@@ -169,7 +169,7 @@ Buildings
 
 	*pallas|pallass
 		name:Pallas's Cat|Pallas's Cats
-		desc:Sooo fluffly!<//><b>Effect:</b><.>Produces 100000 bread per second.
+		desc:Sooo fluffy!<//><b>Effect:</b><.>Produces 100000 bread per second.
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:10000000 bread
 		on tick:yield 100000 bread
@@ -218,7 +218,7 @@ Buildings
 
 	*cougar|cougars
 		name:Cougar|Cougars
-		desc:AKA Puma, Mountain Lion, Catamount, and Panther<//><b>Effect:</b><.>Produces 100000000 bread per second.
+		desc:AKA Puma, Mountain Lion, Catamount, and Panther<//><b>Effect:</b><.>Produces <b>100000000 bread</b> per second.
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:10000000000 bread
 		on tick:yield 100000000 bread
@@ -226,7 +226,7 @@ Buildings
 
 	*cheetah|cheetahs
 		name:Cheetah|Cheetahs
-		desc:The fastest land animal on the planet, capable of going 0 - 60 mph in under 3 seconds.<//><b>Effect:</b><.>Produces 10000000000 bread per second.
+		desc:The fastest land animal on the planet, capable of going 0 - 60 mph in under 3 seconds.<//><b>Effect:</b><.>Produces <b>10000000000 bread</b> per second.<.>[cheetahs] give you <b>[cheetahs*10000000000] bread</b> per second
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:1000000000000 bread
 		on tick:yield 10000000000 bread
