@@ -236,12 +236,115 @@ Buildings
 Upgrades
 	*TEMPLATE
 		on click:anim glow
-	
+
+	//General Upgrades
+
+	*canFood
+		name:Canned Food
+		desc:Better than kibble at least.<//><b>Effect:</b><.>+1% bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:100 bread
+		passive:multiply yield of bread by 1.01
+		req:100 bread:earned
+
+	*string
+		name:A Bit of String
+		desc:Endless entertainment.<//><b>Effect:</b><.>+2% bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:500 bread
+		passive:multiply yield of bread by 1.02
+		req:500 bread:earned
+
+	*treat
+		name:Treats
+		desc:I wonder what they taste like ...<//><b>Effect:</b><.>+5% bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:1000 bread
+		passive:multiply yield of bread by 1.05
+		req:1000 bread:earned
+
+	*cardboard
+		name:Cardboard Box
+		desc:An impregnable fortress.<//><b>Effect:</b><.>+5% bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:5000 bread
+		passive:multiply yield of bread by 1.05
+		req:5000 bread:earned	
+
+	*dinner
+		name:A Little Bit of Dinner
+		desc:It couldn't hurt right? (Seriously always check before feeding human food to your cat)<//><b>Effect:</b><.>+5% bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:10000 bread
+		passive:multiply yield of bread by 1.05
+		req:10000 bread:earned	
+
+	*scratch
+		name:Scratching Post
+		desc:Saves the furniture and leaves your cat with a lovely manicure, or is it a pedicure?<//><b>Effect:</b><.>+5% bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:20000 bread
+		passive:multiply yield of bread by 1.05
+		req:20000 bread:earned	
+
+	*fish
+		name:Fresh Fish
+		desc:All natural and full of nutrients.<//><b>Effect:</b><.>+5% bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:50000 bread
+		passive:multiply yield of bread by 1.05
+		req:50000 bread:earned	
+
+	*perch
+		name:Window Perch
+		desc:A lovely view of the neighborhood.<//><b>Effect:</b><.>+5% bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:100000 bread
+		passive:multiply yield of bread by 1.05
+		req:100000 bread:earned	
+
+	*homemade
+		name:Homemade Cat Food
+		desc:Made with love.<//><b>Effect:</b><.>+5% bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:500000 bread
+		passive:multiply yield of bread by 1.05
+		req:500000 bread:earned	
+
+	*tree
+		name:Cat Tree
+		desc:A great use of your vertical space.<//><b>Effect:</b><.>+5% bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:1000000 bread
+		passive:multiply yield of bread by 1.05
+		req:1000000 bread:earned
+
+
+	*deluxeBowl
+		name:Deluxe Water Bowl
+		desc:A superior way to hydrate.<//><b>Effect:</b><.>+5% bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:5000000 bread
+		passive:multiply yield of bread by 1.05
+		req:5000000 bread:earned	
+
+	*catio
+		name:Catio
+		desc:An outdoor space dedicated to the comfort of your cat.<//><b>Effect:</b><.>+5% bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:10000000 bread
+		passive:multiply yield of bread by 1.05
+		req:10000000 bread:earned
+		
 	*catnip
 		name:CatNip
-		desc:A nice little supplement to your cats' diet.<//><b>Effect:</b><.>+1 bread/click
-		cost:100 bread
-		passive:increase yield of doughButton by 1
-		req:10 bread:earned
+		desc:A nice little supplement to your cats' diet.<//><b>Effect:</b><.>+10 bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:100000000 bread
+		passive:multiply yield of bread by 1.10
+		req:100000000 bread:earned
+
+
+	//CAT UPGRADES
 
 Achievements
