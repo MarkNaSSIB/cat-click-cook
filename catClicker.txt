@@ -58,7 +58,7 @@ Buildings
 		
 	*kitten|kittens
 		name:Kitten|Kittens
-		desc:A tiny little kitten.<//><b>Effect:</b><.>Produces <b>1 bread</b> every 10 seconds.<.>[kittens] give you <b>[kittens/10] bread</b> per second.(<b>[0.1*kittens/bread:ps]%</b> of total BPS.)
+		desc:A tiny little kitten.<//><b>Effect:</b><.>Produces <b>1 bread</b> every 10 seconds.<.>[kittens] give you <b>[kittens/10] bread</b> per second.(<b>[0.1*kittens/bread:ps*100]%</b> of total BPS.)
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:10 bread
 		on tick:yield 0.1 bread
@@ -74,7 +74,7 @@ Buildings
 
 	*munchkin|munchkins
 		name:Munchkin|Munchkins
-		desc:Also known as the 'Sausage Cat', munchkins are known for the small legs!<//><b>Effect:</b><.>Produces <b>1 bread</b> per second.<.>[munchkins] give you <b>[munchkins] bread</b> per second.(<b>[munchkins/bread:ps]%</b> of total BPS.)
+		desc:Also known as the 'Sausage Cat', munchkins are known for the small legs!<//><b>Effect:</b><.>Produces <b>1 bread</b> per second.<.>[munchkins] give you <b>[munchkins] bread</b> per second.(<b>[munchkins/bread:ps*100]%</b> of total BPS.)
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:100 bread
 		on tick:yield 1 bread
