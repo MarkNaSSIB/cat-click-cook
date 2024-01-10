@@ -338,11 +338,19 @@ Upgrades
 		
 	*catnip
 		name:CatNip
-		desc:A nice little supplement to your cats' diet.<//><b>Effect:</b><.>+10 bread
+		desc:A nice little supplement to your cats' diet.<//><b>Effect:</b><.>+10% bread
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:100000000 bread
 		passive:multiply yield of bread by 1.10
 		req:100000000 bread:earned
+
+	*catnip
+		name:CatNip++
+		desc:Just for u shaggy<//><b>Effect:</b><.>One time stimmy
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:1 bread
+		on click:gain 1000000
+		req:1 bread:earned
 
 
 	//CAT UPGRADES
