@@ -344,7 +344,7 @@ Upgrades
 		passive:multiply yield of bread by 1.10
 		req:100000000 bread:earned
 
-	*catnip
+	*catnipPlus
 		name:CatNip++
 		desc:Just for u shaggy<//><b>Effect:</b><.>One time stimmy
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
