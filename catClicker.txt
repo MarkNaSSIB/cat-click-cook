@@ -74,7 +74,7 @@ Buildings
 
 	*munchkin|munchkins
 		name:Munchkin|Munchkins
-		desc:Also known as the 'Sausage Cat', munchkins are known for the small legs!<//><b>Effect:</b><.>Produces <b>1 bread</b> per second.<.>[munchkins] give you <b>[munchkins] bread</b> per second.
+		desc:Also known as the 'Sausage Cat', munchkins are known for the small legs!<//><b>Effect:</b><.>Produces <b>1 bread</b> per second.<.>[munchkins] give you <b>[munchkins] bread</b> per second.(<b>[munchkins/bread:ps]%</b> of total BPS.)
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 		cost:100 bread
 		on tick:yield 1 bread
