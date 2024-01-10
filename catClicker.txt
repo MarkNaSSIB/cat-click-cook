@@ -167,6 +167,72 @@ Buildings
 		on tick:yield 50000 bread
 		req:5000000 bread:earned
 
+	*pallas|pallass
+		name:Pallas's Cat|Pallas's Cats
+		desc:Sooo fluffly!<//><b>Effect:</b><.>Produces 100000 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:10000000 bread
+		on tick:yield 100000 bread
+		req:10000000 bread:earned
+
+	*bobcat|bobcats
+		name:Bobcat|Bobcats
+		desc:Also known as the red lynx, distinguished by its 'bobbed' tail<//><b>Effect:</b><.>Produces 500000 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:50000000 bread
+		on tick:yield 500000 bread
+		req:50000000 bread:earned
+
+	*lynx|lynxs
+		name:Lynx|Lynxes
+		desc:Khajit has wares ... if you have coin.<//><b>Effect:</b><.>Produces 1000000 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:100000000 bread
+		on tick:yield 1000000 bread
+		req:100000000 bread:earned
+
+
+	*ocelot|ocelots
+		name:Ocelot|Ocelots
+		desc:Salvador Dali had a pet ocelot named Babou.<//><b>Effect:</b><.>Produces 5000000 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:500000000 bread
+		on tick:yield 5000000 bread
+		req:500000000 bread:earned
+
+	*carcal|carcals
+		name:Carcal|Carcals
+		desc:Ancient Egyptians, Persians, and Indians were known to raise carcals as hunting companions.<//><b>Effect:</b><.>Produces 10000000 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:1000000000 bread
+		on tick:yield 10000000 bread
+		req:1000000000 bread:earned
+
+	*serval|servals
+		name:Serval|Servals
+		desc:Sometimes called the 'giraffe cat', servals get there name from a Portugese word meaning 'wolf-deer'.<//><b>Effect:</b><.>Produces 50000000 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:5000000000 bread
+		on tick:yield 50000000 bread
+		req:5000000000 bread:earned
+
+	*cougar|cougars
+		name:Cougar|Cougars
+		desc:AKA Puma, Mountain Lion, Catamount, and Panther<//><b>Effect:</b><.>Produces 100000000 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:10000000000 bread
+		on tick:yield 100000000 bread
+		req:10000000000 bread:earned
+
+	*cheetah|cheetahs
+		name:Cheetah|Cheetahs
+		desc:The fastest land animal on the planet, capable of going 0 - 60 mph in under 3 seconds.<//><b>Effect:</b><.>Produces 10000000000 bread per second.
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:1000000000000 bread
+		on tick:yield 10000000000 bread
+		req:1000000000000 bread:earned
+
+
 Upgrades
 	*TEMPLATE
 		on click:anim glow
