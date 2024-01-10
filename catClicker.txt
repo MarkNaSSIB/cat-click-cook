@@ -157,7 +157,7 @@ Buildings
 		name:Chinese Mtn Cat|Chinese Mtn Cats
 		desc:Insert politically correct joke here<//><b>Effect:</b><.>Produces <b>10000 bread</b> per second.<.>[mtncats] give you <b>[mtncats*10000] bread</b> per second.
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost: 1000000 bread
+		cost:1000000 bread
 		on tick:yield 100000 bread
 		req:1000000 bread:earned
 
