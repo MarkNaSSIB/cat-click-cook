@@ -337,22 +337,8 @@ Upgrades
 		cost:10000000 bread
 		passive:multiply yield of bread by 1.05
 		req:10000000 bread:earned
-		
-	*catnip
-		name:CatNip
-		desc:A nice little supplement to your cats' diet.<//><b>Effect:</b><.>+10% bread
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:100000000 bread
-		passive:multiply yield of bread by 1.10
-		req:100000000 bread:earned
 
-	*catnipPlus
-		name:CatNip++
-		desc:Just for u shaggy<//><b>Effect:</b><.>One time stimmy
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:1 bread
-		on click:gain 1000000 bread
-		req:1 bread:earned
+	[include upgrade %id="catNip" %name="Cat Nip" %description="An appreciated treat.<//><b>Effect:</b><.>+10% bread" price="100000000 bread" %effect="multiply yield of bread by 1.10"]
 
 
 	//CAT UPGRADES
@@ -371,60 +357,6 @@ Achievements
 	[include achieve %id="bigBread" %name="Big Bread." %require="1000000000000000 bread:earned"]
 	[include achieve %id="morethanNeed" %name="More than you could ever need" %require="1000000000000000000"]
 
-	*helloWorld
-		name:Hello World.
-		desc:Have <b>1</b> bread.
-		req:1 bread:earned
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-
-	*firstSteps
-		name:First Steps.
-		desc:Have earned <b>10</b> bread.
-		req:10 bread:earned
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-
-	*startingUp
-		name:Starting Up.
-		desc:Have earned <b>100</b> bread.
-		req:100 bread:earned
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-
-	*helloBread
-		name:Hello Bread.
-		desc:Have earned <b>1000</b> bread.
-		req:1000 bread:earned
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-
-	*sixZero
-		name:Six Zeroes.
-		desc:Have earned <b>1,000,000</b> bread.
-		req:1000000 bread:earned
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-
-	*cookingItUp
-		name:Cooking It Up.
-		desc:Have earned <b>1,000,000,000</b> bread.
-		req:1000000000 bread:earned
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-
-
-	*nowDifferent
-		name:Now It's Different.
-		desc:Have earned <b>1 Trillion</b> bread.
-		req:1000000000000 bread:earned
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-
-	*bigBread
-		name:Big Bread.
-		desc:Have earned <b>1 Quadrillion</b> bread.
-		req:1000000000000000 bread:earned
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-
-	*moreThanNeed
-		name:More than you could ever need.
-		desc:Have earned <b>1 Quintillion</b> bread.
-		req:1000000000000000000 bread:earned
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 
 Includes
 	*include achieve %id %name %require %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
@@ -433,5 +365,15 @@ Includes
 			desc:Have <b>[%require]</b>.
 			req:[%require]
 			icon:[%picture]
+
+	*include upgrade %id %name %description %price %require="[%price]:earned" %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
+		*upgrade[%id]
+			name:[%name]
+			desc:[%description]
+			cost:[%price]
+			req:[%require]
+			passive:[%effect]
+			icon:[%picture]
+
 
 
