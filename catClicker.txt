@@ -366,7 +366,7 @@ Includes
 			req:[%require]
 			icon:[%picture]
 
-	*include upgrade %id %name %description %price %require="[%price]:earned %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
+	*include upgrade %id %name %description %price %require="[%price]:earned" %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
 		*upgrade[%id]
 			name:[%name]
 			desc:[%description]
