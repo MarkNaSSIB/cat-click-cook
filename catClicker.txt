@@ -338,7 +338,7 @@ Upgrades
 		passive:multiply yield of bread by 1.05
 		req:10000000 bread:earned
 
-	[include upgrade %id="catNip" %name="Cat Nip" %description="An appreciated treat.<//><b>Effect:</b><.>+10% bread" price="100000000 bread" %require="100000000 bread:earned" %effect="multiply yield of bread by 1.10"]
+	[include upgrade %id="catNip" %name="Cat Nip" %description="An appreciated treat.<//><b>Effect:</b><.>+10% bread" %price="100000000 bread" %require="100000000 bread:earned" %effect="multiply yield of bread by 1.10"]
 
 
 	//CAT UPGRADES
@@ -366,7 +366,7 @@ Includes
 			req:[%require]
 			icon:[%picture]
 
-	*include upgrade %id %name %description %price %require %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
+	*include upgrade %id %name %description %price %require="[%price]:earned %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
 		*upgrade[%id]
 			name:[%name]
 			desc:[%description]
