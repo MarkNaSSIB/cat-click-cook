@@ -329,15 +329,8 @@ Upgrades
 		cost:5000000 bread
 		passive:multiply yield of bread by 1.05
 		req:5000000 bread:earned	
-
-	*catio
-		name:Catio
-		desc:An outdoor space dedicated to the comfort of your cat.<//><b>Effect:</b><.>+5% bread
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:10000000 bread
-		passive:multiply yield of bread by 1.05
-		req:10000000 bread:earned
-
+	
+	[include upgrade %id="catio" %name="Catio" %description="An outdoor space dedicated to the comfort of your cat.<//><b>Effect:</b><.>+5% bread" %price="10000000 bread" %effect="multiply yield of bread by 1.05"]
 	[include upgrade %id="catNip" %name="Cat Nip" %description="An appreciated treat.<//><b>Effect:</b><.>+10% bread" %price="100000000 bread" %require="100000000 bread:earned" %effect="multiply yield of bread by 1.10"]
 
 
