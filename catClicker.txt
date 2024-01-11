@@ -358,3 +358,25 @@ Upgrades
 	//CAT UPGRADES
 
 Achievements
+	*TEMPLATE
+		on click:anim glow
+
+	*helloWorld
+		name:Hello World
+		desc:Have <b>1</b> bread.
+		req:1 bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+
+	*firstSteps
+		name:First Steps
+		desc:Have <b>10</b> bread.
+		req:10 bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+
+	*startingUp
+		name:Starting Up
+		desc:Have <b>100</b> bread.
+		req:100 bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+
+
