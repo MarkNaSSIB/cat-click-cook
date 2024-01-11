@@ -26,7 +26,7 @@ Layout
 		contains:buildings, upgrades
 	*buildings
 		contains:BulkDisplay, Buildings
-		header:Buildings
+		header:Cats
 		tooltip origin:left
 	*upgrades
 		contains:Upgrades
@@ -361,7 +361,15 @@ Achievements
 	*TEMPLATE
 		on click:anim glow
 
-	[include achieveAmt %id="helloWorld" %name="Hello Include" %price="8"]
+	[include achieve %id="helloWorld" %name="Hello World!" %require="1 bread:earned"]
+	[include achieve %id="firstSteps" %name="First Steps." %require="10 bread:earned"]
+	[include achieve %id="startingUp" %name="Starting Up." %require="100 bread:earned"]
+	[include achieve %id="helloBread" %name="Hello Bread." %require="1000 bread:earned"]
+	[include achieve %id="sixZero" %name="Six Zeroes." %require="1000000 bread:earned"]
+	[include achieve %id="cookingItUp" %name="Cookin It Up." %require="1000000000 bread:earned"]
+	[include achieve %id="nowDiff" %name="Now It's Different." %require="1000000000000 bread:earned"]
+	[include achieve %id="bigBread" %name="Big Bread." %require="1000000000000000 bread:earned"]
+	[include achieve %id="morethanNeed" %name="More than you could ever need" %require="1000000000000000000"]
 
 	*helloWorld
 		name:Hello World.
@@ -419,11 +427,11 @@ Achievements
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 
 Includes
-	*include achieveAmt %id %name %price %picture="icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
+	*include achieve %id %name %require %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
 		*achieve[%id]
 			name:[%name]
-			desc:Have earned <b>[%price]</b> bread.
-			req:[%price] bread:earned
+			desc:Have <b>[%require]</b>.
+			req:[%require]
 			icon:[%picture]
 
 
