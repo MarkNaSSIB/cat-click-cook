@@ -361,6 +361,8 @@ Achievements
 	*TEMPLATE
 		on click:anim glow
 
+	[include achieveAmt %id="helloWorld" %name="Hello Include" %price="8"]
+
 	*helloWorld
 		name:Hello World.
 		desc:Have <b>1</b> bread.
@@ -415,5 +417,13 @@ Achievements
 		desc:Have earned <b>1 Quintillion</b> bread.
 		req:1000000000000000000 bread:earned
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+
+Includes
+	*include achieveAmt %id %name %price %picture="icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
+		*achieve[%id]
+			name:[%name]
+			desc:Have earned <b>[%price]</b> bread.
+			req:[%price] bread:earned
+			icon:[%picture]
 
 
