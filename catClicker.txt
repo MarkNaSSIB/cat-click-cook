@@ -362,21 +362,58 @@ Achievements
 		on click:anim glow
 
 	*helloWorld
-		name:Hello World
+		name:Hello World.
 		desc:Have <b>1</b> bread.
-		req:1 bread
+		req:1 bread:earned
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 
 	*firstSteps
-		name:First Steps
-		desc:Have <b>10</b> bread.
-		req:10 bread
+		name:First Steps.
+		desc:Have earned <b>10</b> bread.
+		req:10 bread:earned
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 
 	*startingUp
-		name:Starting Up
-		desc:Have <b>100</b> bread.
-		req:100 bread
+		name:Starting Up.
+		desc:Have earned <b>100</b> bread.
+		req:100 bread:earned
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+
+	*helloBread
+		name:Hello Bread.
+		desc:Have earned <b>1000</b> bread.
+		req:1000 bread:earned
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+
+	*sixZero
+		name:Six Zeroes.
+		desc:Have earned <b>1,000,000</b> bread.
+		req:1000000 bread:earned
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+
+	*cookingItUp
+		name:Cooking It Up.
+		desc:Have earned <b>1,000,000,000</b> bread.
+		req:1000000000 bread:earned
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+
+
+	*nowDifferent
+		name:Now It's Different.
+		desc:Have earned <b>1 Trillion</b> bread.
+		req:1000000000000 bread:earned
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+
+	*bigBread
+		name:Big Bread.
+		desc:Have earned <b>1 Quadrillion</b> bread.
+		req:1000000000000000 bread:earned
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+
+	*moreThanNeed
+		name:More than you could ever need.
+		desc:Have earned <b>1 Quintillion</b> bread.
+		req:1000000000000000000 bread:earned
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 
 
