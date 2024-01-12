@@ -64,6 +64,8 @@ Buildings
 		on tick:yield 0.1 bread
 		unlocked
 
+/*
+	//removed for overcrowding
 	*shorthair|shorthairs
 		name:Domestic Shorthair|Domestic Shorthairs
 		desc:One of the most common house cats in the world!<//><b>Effect:</b><.>Produces <b>5 bread</b> every 10 seconds.<.>[shorthairs] give you <b>[shorthairs/2] bread</b> per second.(<b>[shorthairs/2/bread:ps*100]%</b> of total BPS.)
@@ -71,6 +73,7 @@ Buildings
 		cost:50 bread
 		on tick:yield 0.5 bread
 		req:50 bread:earned
+*/
 
 	*munchkin|munchkins
 		name:Munchkin|Munchkins
@@ -80,6 +83,8 @@ Buildings
 		on tick:yield 1 bread
 		req:100 bread:earned
 
+/*
+	//removed for overcrowding
 	*ragdoll|ragdolls
 		name:Ragdoll|Ragdolls
 		desc:A very affectionate cat, known for their receptiveness to handling.<//><b>Effect:</b><.>Produces <b>2 bread</b> per second.<.>[ragdolls] give you <b>[ragdolls*2] bread</b> per second.(<b>[ragdolls*2/bread:ps*100]%</b> of total BPS.)
@@ -87,6 +92,7 @@ Buildings
 		cost:200 bread
 		on tick:yield 2 bread
 		req:200 bread:earned
+*/
 
 
 	*bengal|bengals
@@ -105,6 +111,8 @@ Buildings
 		on tick:yield 10 bread
 		req:1000 bread:earned
 
+/*
+	//removed for overcrowding
 	*toyger|toygers
 		name:Toyger|Toygers
 		desc:A toy Tiger!<//><b>Effect:</b><.>Produces <b>25 bread</b> per second.<.>[toygers] give you <b>[toygers*25] bread</b> per second.(<b>[toygers*25/bread:ps*100]%</b> of total BPS.)
@@ -112,6 +120,7 @@ Buildings
 		cost:2500 bread
 		on tick:yield 25 bread
 		req:2500 bread:earned
+*/
 	
 	*russian|russians
 		name:Russian Blue|Russian Blues
@@ -290,29 +299,33 @@ Upgrades
 
 	[include upgrade %id="string" %name="A Bit of String" %description="Endless entertainment.<//><b>Effect:</b><.>+2% bread" %price="500 bread" %require="500 bread:earned" %effect="multiply yield of bread by 1.02"]
 
-	[include upgrade %id="treat" %name="Treats" %description="I wonder what they taste like ...<//><b>Effect:</b><.>+5% bread" %price="1000 bread" %require="1000 bread:earned" %effect="multiply yield of bread by 1.05"]
+	[include upgrade %id="treat" %name="Treats" %description="I wonder what they taste like ...<//><b>Effect:</b><.>+2% bread" %price="1000 bread" %require="1000 bread:earned" %effect="multiply yield of bread by 1.02"]
 
-	[include upgrade %id="cardboard" %name="Cardboard Box" %description="An impregnable fortress.<//><b>Effect:</b><.>+5% bread" %price="5000 bread" %require="5000 bread:earned" %effect="multiply yield of bread by 1.05"]
+	[include upgrade %id="cardboard" %name="Cardboard Box" %description="An impregnable fortress.<//><b>Effect:</b><.>+2% bread" %price="5000 bread" %require="5000 bread:earned" %effect="multiply yield of bread by 1.02"]
 
-	[include upgrade %id="dinner" %name="A Little Bit of Dinner" %description="It couldn't hurt right? (Seriously always check before feeding human food to your cat)<//><b>Effect:</b><.>+5% bread" %price="10000 bread" %require="10000 bread:earned" %effect="multiply yield of bread by 1.05"]	
+	[include upgrade %id="dinner" %name="A Little Bit of Dinner" %description="It couldn't hurt right? (Seriously always check before feeding human food to your cat)<//><b>Effect:</b><.>+2% bread" %price="10000 bread" %require="10000 bread:earned" %effect="multiply yield of bread by 1.02"]	
 
-	[include upgrade %id="scratch" %name="Scratching Post" %description="Saves the furniture and leaves your cat with a lovely manicure, or is it a pedicure?<//><b>Effect:</b><.>+5% bread" %price="20000 bread" %require="20000 bread:earned" %effect="multiply yield of bread by 1.05"]
+	[include upgrade %id="scratch" %name="Scratching Post" %description="Saves the furniture and leaves your cat with a lovely manicure, or is it a pedicure?<//><b>Effect:</b><.>+2% bread" %price="20000 bread" %require="20000 bread:earned" %effect="multiply yield of bread by 1.02"]
 
-	[include upgrade %id="fish" %name="Fresh Fish" %description="All natural and full of nutrients.<//><b>Effect:</b><.>+5% bread" %price="50000 bread" %require="50000 bread:earned" %effect="multiply yield of bread by 1.05"]
+	[include upgrade %id="fish" %name="Fresh Fish" %description="All natural and full of nutrients.<//><b>Effect:</b><.>+2% bread" %price="50000 bread" %require="50000 bread:earned" %effect="multiply yield of bread by 1.02"]
 
-	[include upgrade %id="perch" %name="Window Perch" %description="A lovely view of the neighborhood.<//><b>Effect:</b><.>+5% bread" %price="100000 bread" %require="100000 bread:earned" %effect="multiply yield of bread by 1.05"]
+	[include upgrade %id="perch" %name="Window Perch" %description="A lovely view of the neighborhood.<//><b>Effect:</b><.>+2% bread" %price="100000 bread" %require="100000 bread:earned" %effect="multiply yield of bread by 1.02"]
 
-	[include upgrade %id="homemade" %name="Homemade Cat Food" %description="Made with love.<//><b>Effect:</b><.>+5% bread" %price="500000 bread" %require="500000 bread:earned" %effect="multiply yield of bread by 1.05"]
+	[include upgrade %id="homemade" %name="Homemade Cat Food" %description="Made with love.<//><b>Effect:</b><.>+2% bread" %price="500000 bread" %require="500000 bread:earned" %effect="multiply yield of bread by 1.02"]
 
-	[include upgrade %id="tree" %name="Deluxe Water Bowl" %description="A great use of your vertical space.<//><b>Effect:</b><.>+5% bread" %price="1000000 bread" %require="1000000 bread:earned" %effect="multiply yield of bread by 1.05"]
+	[include upgrade %id="tree" %name="Deluxe Water Bowl" %description="A great use of your vertical space.<//><b>Effect:</b><.>+2% bread" %price="1000000 bread" %require="1000000 bread:earned" %effect="multiply yield of bread by 1.02"]
 
-	[include upgrade %id="deluxeBowl" %name="Deluxe Water Bowl" %description="A superior way to hydrate.<//><b>Effect:</b><.>+5% bread" %price="5000000 bread" %require="5000000 bread:earned" %effect="multiply yield of bread by 1.05"]
+	[include upgrade %id="deluxeBowl" %name="Deluxe Water Bowl" %description="A superior way to hydrate.<//><b>Effect:</b><.>+2% bread" %price="5000000 bread" %require="5000000 bread:earned" %effect="multiply yield of bread by 1.02"]
 
-	[include upgrade %id="catio" %name="Catio" %description="An outdoor space dedicated to the comfort of your cat.<//><b>Effect:</b><.>+5% bread" %price="10000000 bread" %require="10000000 bread:earned" %effect="multiply yield of bread by 1.05"]
+	[include upgrade %id="catio" %name="Catio" %description="An outdoor space dedicated to the comfort of your cat.<//><b>Effect:</b><.>+2% bread" %price="10000000 bread" %require="10000000 bread:earned" %effect="multiply yield of bread by 1.02"]
 
-	[include upgrade %id="catNip" %name="Cat Nip" %description="An appreciated treat.<//><b>Effect:</b><.>+10% bread" %price="100000000 bread" %require="100000000 bread:earned" %effect="multiply yield of bread by 1.10"]
+	[include upgrade %id="catNip" %name="Cat Nip" %description="An appreciated treat.<//><b>Effect:</b><.>+2% bread" %price="100000000 bread" %require="100000000 bread:earned" %effect="multiply yield of bread by 1.02"]
 
 	//CAT UPGRADES
+
+	[include upgrade %id="kittenMilk" %name="Kitten Milk" %description="Special Kitten Formula<//><b>Effect:</b><.>Kittens are twice as effective" %price"500 bread" %require="[kittens:max]>=10" %effect="multiply yield of kittens by 2.0"]
+	[include upgrade %id="kittenCatNip+" %name="Kitten Cat Nip+" %description="Special Kitten Cat Nip<//><b>Effect:</b><.>Kittens are twice as effective" %price"1000 bread" %require="[kittens:max]>=50" %effect="multiply yield of kittens by 2.0"]
+	[include upgrade %id="kittenSpecialFood" %name="Kitten Special Food" %description="Special Kitten Food<//><b>Effect:</b><.>Kittens are twice as effective" %price"5000 bread" %require="[kittens:max]>=100" %effect="multiply yield of kittens by 2.0"]
 
 
 Achievements
@@ -357,7 +370,7 @@ Includes
 			passive:[%effect]
 			icon:[%picture]
 
-	//Cat template (ToDo: templatify felinae cats)
+	//Cat template (ToDo: templatify cats, figure out how to use templates with variables)
 	*include cat %id %name %description %price %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
 		*cat[%id]
 			name:[%name]
