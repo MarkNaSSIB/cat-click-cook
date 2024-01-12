@@ -289,7 +289,7 @@ Buildings
 	// ex) [include cat %id="kitten|kittens" %name="Kitten|Kittens" %price="1" %effect=".1"] 
 */
 
-	[include cat %id="Mittens" %name="Mittens" %price="1000" %effect="69"] 
+	[include cat %id="Mittens" %name="Mittens" %description="Best Cat" %price="1000" %effect="69"] 
 
 Upgrades
 	*TEMPLATE
