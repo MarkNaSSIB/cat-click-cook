@@ -233,7 +233,16 @@ Buildings
 		cost:1000000000000 bread
 		on tick:yield 10000000000 bread
 		req:1000000000000 bread:earned
-
+/*
+	*include cat %id %name %description %price %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
+		*cat[%id]
+			name:[%name]
+			desc:[%description]
+			cost:[%price]
+			req:[%price]:earned
+			on tick:[%effect]
+			icon:[%picture]
+*/
 
 Upgrades
 	*TEMPLATE
@@ -290,7 +299,7 @@ Achievements
 
 	[include achieve %id="bigBread" %name="Big Bread." %require="1000000000000000 bread:earned"]
 
-	[include achieve %id="morethanNeed" %name="More than you could ever need" %require="1000000000000000000"]
+	[include achieve %id="morethanNeed" %name="More than you could ever need" %require="1000000000000000000 bread:earned"]
 
 
 Includes
@@ -310,6 +319,16 @@ Includes
 			cost:[%price]
 			req:[%require]
 			passive:[%effect]
+			icon:[%picture]
+
+	//Cat template (ToDo: templatify felinae cats)
+	*include cat %id %name %description %price %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
+		*cat[%id]
+			name:[%name]
+			desc:[%description]
+			cost:[%price]
+			req:[%price]:earned
+			on tick:[%effect]
 			icon:[%picture]
 
 
