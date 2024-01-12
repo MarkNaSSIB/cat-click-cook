@@ -322,11 +322,12 @@ Upgrades
 	[include upgrade %id="catNip" %name="Cat Nip" %description="An appreciated treat.<//><b>Effect:</b><.>+2% bread" %price="100000000 bread" %require="100000000 bread:earned" %effect="multiply yield of bread by 1.02"]
 
 	//CAT UPGRADES
-
+/*
+	//Needs new include
 	[include upgrade %id="kittenMilk" %name="Kitten Milk" %description="Special Kitten Formula<//><b>Effect:</b><.>Kittens are twice as effective" %price"500 bread" %require="[kittens:max]>=10" %effect="multiply yield of kittens by 2.0"]
 	[include upgrade %id="kittenCatNip" %name="Kitten Cat Nip" %description="Special Kitten Cat Nip<//><b>Effect:</b><.>Kittens are twice as effective" %price"1000 bread" %require="[kittens:max]>=50" %effect="multiply yield of kittens by 2.0"]
 	[include upgrade %id="kittenFood" %name="Kitten Special Food" %description="Special Kitten Food<//><b>Effect:</b><.>Kittens are twice as effective" %price"5000 bread" %require="[kittens:max]>=100" %effect="multiply yield of kittens by 2.0"]
-
+*/
 
 Achievements
 	*TEMPLATE
