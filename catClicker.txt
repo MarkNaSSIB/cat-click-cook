@@ -241,117 +241,60 @@ Upgrades
 
 	//General Upgrades
 
-	*canFood
-		name:Canned Food
-		desc:Better than kibble at least.<//><b>Effect:</b><.>+1% bread
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:100 bread
-		passive:multiply yield of bread by 1.01
-		req:100 bread:earned
+	[include upgrade %id="canFood" %name="Canned Food" %description="Better than kibble at least.<//><b>Effect:</b><.>+1% bread" %price="100 bread" %require="100 bread:earned" %effect="multiply yield of bread by 1.01"]
 
-	*string
-		name:A Bit of String
-		desc:Endless entertainment.<//><b>Effect:</b><.>+2% bread
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:500 bread
-		passive:multiply yield of bread by 1.02
-		req:500 bread:earned
+	[include upgrade %id="string" %name="A Bit of String" %description="Endless entertainment.<//><b>Effect:</b><.>+2% bread" %price="500 bread" %require="500 bread:earned" %effect="multiply yield of bread by 1.02"]
 
-	*treat
-		name:Treats
-		desc:I wonder what they taste like ...<//><b>Effect:</b><.>+5% bread
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:1000 bread
-		passive:multiply yield of bread by 1.05
-		req:1000 bread:earned
+	[include upgrade %id="treat" %name="Treats" %description="I wonder what they taste like ...<//><b>Effect:</b><.>+5% bread" %price="1000 bread" %require="1000 bread:earned" %effect="multiply yield of bread by 1.05"]
 
-	*cardboard
-		name:Cardboard Box
-		desc:An impregnable fortress.<//><b>Effect:</b><.>+5% bread
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:5000 bread
-		passive:multiply yield of bread by 1.05
-		req:5000 bread:earned	
+	[include upgrade %id="cardboard" %name="Cardboard Box" %description="An impregnable fortress.<//><b>Effect:</b><.>+5% bread" %price="5000 bread" %require="5000 bread:earned" %effect="multiply yield of bread by 1.05"]
 
-	*dinner
-		name:A Little Bit of Dinner
-		desc:It couldn't hurt right? (Seriously always check before feeding human food to your cat)<//><b>Effect:</b><.>+5% bread
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:10000 bread
-		passive:multiply yield of bread by 1.05
-		req:10000 bread:earned	
+	[include upgrade %id="dinner" %name="A Little Bit of Dinner" %description="It couldn't hurt right? (Seriously always check before feeding human food to your cat)<//><b>Effect:</b><.>+5% bread" %price="10000 bread" %require="10000 bread:earned" %effect="multiply yield of bread by 1.05"]	
 
-	*scratch
-		name:Scratching Post
-		desc:Saves the furniture and leaves your cat with a lovely manicure, or is it a pedicure?<//><b>Effect:</b><.>+5% bread
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:20000 bread
-		passive:multiply yield of bread by 1.05
-		req:20000 bread:earned	
+	[include upgrade %id="scratch" %name="Scratching Post" %description="Saves the furniture and leaves your cat with a lovely manicure, or is it a pedicure?<//><b>Effect:</b><.>+5% bread" %price="20000 bread" %require="20000 bread:earned" %effect="multiply yield of bread by 1.05"]
 
-	*fish
-		name:Fresh Fish
-		desc:All natural and full of nutrients.<//><b>Effect:</b><.>+5% bread
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:50000 bread
-		passive:multiply yield of bread by 1.05
-		req:50000 bread:earned	
+	[include upgrade %id="fish" %name="Fresh Fish" %description="All natural and full of nutrients.<//><b>Effect:</b><.>+5% bread" %price="50000 bread" %require="50000 bread:earned" %effect="multiply yield of bread by 1.05"]
 
-	*perch
-		name:Window Perch
-		desc:A lovely view of the neighborhood.<//><b>Effect:</b><.>+5% bread
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:100000 bread
-		passive:multiply yield of bread by 1.05
-		req:100000 bread:earned	
+	[include upgrade %id="perch" %name="Window Perch" %description="A lovely view of the neighborhood.<//><b>Effect:</b><.>+5% bread" %price="100000 bread" %require="100000 bread:earned" %effect="multiply yield of bread by 1.05"]
 
-	*homemade
-		name:Homemade Cat Food
-		desc:Made with love.<//><b>Effect:</b><.>+5% bread
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:500000 bread
-		passive:multiply yield of bread by 1.05
-		req:500000 bread:earned	
+	[include upgrade %id="homemade" %name="Homemade Cat Food" %description="Made with love.<//><b>Effect:</b><.>+5% bread" %price="500000 bread" %require="500000 bread:earned" %effect="multiply yield of bread by 1.05"]
 
-	*tree
-		name:Cat Tree
-		desc:A great use of your vertical space.<//><b>Effect:</b><.>+5% bread
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:1000000 bread
-		passive:multiply yield of bread by 1.05
-		req:1000000 bread:earned
+	[include upgrade %id="tree" %name="Deluxe Water Bowl" %description="A great use of your vertical space.<//><b>Effect:</b><.>+5% bread" %price="1000000 bread" %require="1000000 bread:earned" %effect="multiply yield of bread by 1.05"]
 
+	[include upgrade %id="deluxeBowl" %name="Deluxe Water Bowl" %description="A superior way to hydrate.<//><b>Effect:</b><.>+5% bread" %price="5000000 bread" %require="5000000 bread:earned" %effect="multiply yield of bread by 1.05"]
 
-	*deluxeBowl
-		name:Deluxe Water Bowl
-		desc:A superior way to hydrate.<//><b>Effect:</b><.>+5% bread
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:5000000 bread
-		passive:multiply yield of bread by 1.05
-		req:5000000 bread:earned	
-	
 	[include upgrade %id="catio" %name="Catio" %description="An outdoor space dedicated to the comfort of your cat.<//><b>Effect:</b><.>+5% bread" %price="10000000 bread" %require="10000000 bread:earned" %effect="multiply yield of bread by 1.05"]
+
 	[include upgrade %id="catNip" %name="Cat Nip" %description="An appreciated treat.<//><b>Effect:</b><.>+10% bread" %price="100000000 bread" %require="100000000 bread:earned" %effect="multiply yield of bread by 1.10"]
 
-
 	//CAT UPGRADES
+
 
 Achievements
 	*TEMPLATE
 		on click:anim glow
 
 	[include achieve %id="helloWorld" %name="Hello World!" %require="1 bread:earned"]
+
 	[include achieve %id="firstSteps" %name="First Steps." %require="10 bread:earned"]
+
 	[include achieve %id="startingUp" %name="Starting Up." %require="100 bread:earned"]
+
 	[include achieve %id="helloBread" %name="Hello Bread." %require="1000 bread:earned"]
+
 	[include achieve %id="sixZero" %name="Six Zeroes." %require="1000000 bread:earned"]
+
 	[include achieve %id="cookingItUp" %name="Cookin It Up." %require="1000000000 bread:earned"]
+
 	[include achieve %id="nowDiff" %name="Now It's Different." %require="1000000000000 bread:earned"]
+
 	[include achieve %id="bigBread" %name="Big Bread." %require="1000000000000000 bread:earned"]
+
 	[include achieve %id="morethanNeed" %name="More than you could ever need" %require="1000000000000000000"]
 
 
 Includes
+	//General achievement template
 	*include achieve %id %name %require %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
 		*achieve[%id]
 			name:[%name]
@@ -359,6 +302,7 @@ Includes
 			req:[%require]
 			icon:[%picture]
 
+	//General upgrade template
 	*include upgrade %id %name %description %price %require %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
 		*upgrade[%id]
 			name:[%name]
