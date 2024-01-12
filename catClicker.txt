@@ -233,7 +233,41 @@ Buildings
 		cost:1000000000000 bread
 		on tick:yield 10000000000 bread
 		req:1000000000000 bread:earned
+
+	*leopard|leopards
+		name:Leopard|Leopards
+		desc:Also Known as Panthers, their distinctive rosette patterns strike fear into all who see them.<//><b>Effect:</b><.>Produces <b>1000000000000 bread</b> per second.<.>[leopards] give you <b>[leopards*1000000000000] bread</b> per second.(<b>[100*leopards*1000000000000/bread:ps]%</b> of total BPS.)
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:100000000000000 bread
+		on tick:yield 1000000000000 bread
+		req:100000000000000 bread:earned
+
+	*jaguar|jaguars
+		name:Jaguar|Jaguars
+		desc:The only big cat native to North America.<//><b>Effect:</b><.>Produces <b>10000000000000 bread</b> per second.<.>[jaguars] give you <b>[jaguars*10000000000000] bread</b> per second.(<b>[100*jaguars*10000000000000/bread:ps]%</b> of total BPS.)
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:1000000000000000 bread
+		on tick:yield 10000000000000 bread
+		req:1000000000000000 bread:earned
+
+	*tiger|tigers
+		name:Tiger|Tigers
+		desc:The Apex Predators of Asia. Cool stripes too.<//><b>Effect:</b><.>Produces <b>1000000000000000 bread</b> per second.<.>[tigers] give you <b>[tigers*1000000000000000] bread</b> per second.(<b>[100*tigers*1000000000000000/bread:ps]%</b> of total BPS.)
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:100000000000000000 bread
+		on tick:yield 1000000000000000 bread
+		req:100000000000000000 bread:earned
+
+	*lion|lions
+		name:Lion|Lions
+		desc:The fluffiest cat.<//><b>Effect:</b><.>Produces <b>100000000000000000 bread</b> per second.<.>[lions] give you <b>[lions*100000000000000000] bread</b> per second.(<b>[100*lions*100000000000000000/bread:ps]%</b> of total BPS.)
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
+		cost:10000000000000000000 bread
+		on tick:yield 100000000000000000 bread
+		req:10000000000000000000 bread:earned
+
 /*
+	//template layout
 	*include cat %id %name %description %price %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
 		*cat[%id]
 			name:[%name]
@@ -244,9 +278,11 @@ Buildings
 			icon:[%picture]
 */
 
+
 Upgrades
 	*TEMPLATE
 		on click:anim glow
+		on click:hide this
 
 	//General Upgrades
 
