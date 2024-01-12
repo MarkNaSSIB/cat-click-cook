@@ -275,7 +275,7 @@ Buildings
 		on tick:yield 100000000000000000 bread
 		req:10000000000000000000 bread:earned
 
-
+/*
 	//template layout
 	*include cat %id %name %price %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
 		*cat[%id]
@@ -287,7 +287,7 @@ Buildings
 			icon:[%picture]
 
 	// ex) [include cat %id="kitten|kittens" %name="Kitten|Kittens" %price="1" %effect=".1"] 
-
+*/
 
 Upgrades
 	*TEMPLATE
@@ -373,14 +373,16 @@ Includes
 			icon:[%picture]
 
 	//Cat template (ToDo: templatify cats, figure out how to use templates with variables)
-	*include cat %id %name %description %price %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
+	//template layout
+	*include cat %id %name %price %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
 		*cat[%id]
 			name:[%name]
-			desc:[%description]
-			cost:[%price]
-			req:[%price]:earned
-			on tick:[%effect]
+			desc:<//><b>Effect:</b><.>Produces <b>[%effect]</b> per second.<.>[%id] give you <b>[cat[%id]*[%effect]] bread</b> per second.(<b>[[cat[%id]*[%effect]]/bread:ps]%</b> of total BPS.)
+			cost:[%price] bread
+			req:[%price] bread:earned
+			on tick:yield [%effect] bread
 			icon:[%picture]
+
 
 
 
