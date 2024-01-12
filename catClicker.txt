@@ -267,14 +267,6 @@ Buildings
 		on tick:yield 1000000000000000 bread
 		req:100000000000000000 bread:earned
 
-	*lion|lions
-		name:Lion|Lions
-		desc:The fluffiest cat.<//><b>Effect:</b><.>Produces <b>100000000000000000 bread</b> per second.<.>[lions] give you <b>[lions*100000000000000000] bread</b> per second.(<b>[100*lions*100000000000000000/bread:ps]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:10000000000000000000 bread
-		on tick:yield 100000000000000000 bread
-		req:10000000000000000000 bread:earned
-
 /*
 	//template layout
 	*include cat %id %name %description %price %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
@@ -290,6 +282,9 @@ Buildings
 */
 
 	[include cat %id="mittens" %name="Mittens" %description="Best Cat" %price="1000" %effect="69"] 
+
+	[include cat %id="lion|lions" %name="Lion|Lions" %description="The fluffiest cat." %price="10000000000000000000" %effect="100000000000000000"] 
+
 
 Upgrades
 	*TEMPLATE
@@ -378,7 +373,7 @@ Includes
 	*include cat %id %name %description %price %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
 		*cat[%id]
 			name:[%name]
-			desc:[%description]<//><b>Effect:</b><.>Produces <b>[%effect]</b> per second.<.>[cat[%id]][%name] give you <b>[cat[%id]*[%effect]] bread</b> per second.(<b>[cat[%id]*[%effect]/bread:ps]%</b> of total BPS.)
+			desc:[%description]<//><b>Effect:</b><.>Produces <b>[%effect]</b> per second.<.>[cat[%id]] [%name] give you <b>[cat[%id]*[%effect]] bread</b> per second.(<b>[cat[%id]*[%effect]/bread:ps]%</b> of total BPS.)
 			cost:[%price] bread
 			req:[%price] bread:earned
 			on tick:yield [%effect] bread
