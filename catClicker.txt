@@ -289,7 +289,7 @@ Buildings
 	// ex) [include cat %id="kitten|kittens" %name="Kitten|Kittens" %price="1" %effect=".1"] 
 */
 
-	[include cat %id="Mittens" %name="Mittens" %description="Best Cat" %price="1000" %effect="69"] 
+	[include cat %id="mittens" %name="Mittens" %description="Best Cat" %price="1000" %effect="69"] 
 
 Upgrades
 	*TEMPLATE
@@ -378,7 +378,7 @@ Includes
 	*include cat %id %name %description %price %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
 		*cat[%id]
 			name:[%name]
-			desc:[%description]<//><b>Effect:</b><.>Produces <b>[%effect]</b> per second.<.>[%id] give you <b>[cat[%id]*[%effect]] bread</b> per second.(<b>[cat[%id]*[%effect]/bread:ps]%</b> of total BPS.)
+			desc:[%description]<//><b>Effect:</b><.>Produces <b>[%effect]</b> per second.<.>[cat[%id]][%name] give you <b>[cat[%id]*[%effect]] bread</b> per second.(<b>[cat[%id]*[%effect]/bread:ps]%</b> of total BPS.)
 			cost:[%price] bread
 			req:[%price] bread:earned
 			on tick:yield [%effect] bread
