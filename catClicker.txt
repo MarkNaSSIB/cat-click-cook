@@ -283,7 +283,7 @@ Buildings
 
 	[include cat %id="mittens" %name="Mittens" %description="Best Cat" %price="1000" %effect="69"] 
 
-	[include cat %id="lion|lions" %name="Lion|Lions" %description="The fluffiest cat." %price="10000000000000000000" %effect="100000000000000000"] 
+	[include cat %id="lion" %name="Lion|Lions" %description="The fluffiest cat." %price="10000000000000000000" %effect="100000000000000000"] 
 
 
 Upgrades
