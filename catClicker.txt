@@ -206,7 +206,7 @@ Includes
 			desc:[%description]
 			cost:[%price]
 			req:[%require]
-			passive:[%effect]
+			on click:[%effect]
 			icon:[%picture]
 
 	//Cat template (ToDo: templatify cats, figure out how to use templates with variables)
