@@ -77,7 +77,6 @@ Buildings
 
 */
 
-
 	// [include cat %id="mittens" %name="Mittens" %description="Best Cat" %price="1000" %effect="69"] 
 
 	[include cat %id="kitten" %name="Kitten|Kittens" %description="A Tiny Little Kitten!" %price="10" %effect="0.1"] 
@@ -132,8 +131,7 @@ Upgrades
 		on click:hide this
 
 	//General Upgrades
-/*
-	//disabled for updates
+
 	[include upgrade %id="canFood" %name="Canned Food" %description="Better than kibble at least.<//><b>Effect:</b><.>Get 1 Golden Cat" %price="100 bread" %require="100 bread:earned" %effect="yield 1 goldenCat"]
 
 	[include upgrade %id="string" %name="A Bit of String" %description="Endless entertainment.<//><b>Effect:</b><.>Get 1 Golden Cat" %price="500 bread" %require="500 bread:earned" %effect="yield 1 goldenCat"]
@@ -159,7 +157,7 @@ Upgrades
 	[include upgrade %id="catio" %name="Catio" %description="An outdoor space dedicated to the comfort of your cat.<//><b>Effect:</b><.>Get 1 Golden Cat" %price="10000000 bread" %require="10000000 bread:earned" %effect="yield 1 goldenCat"]
 
 	[include upgrade %id="catNip" %name="Cat Nip" %description="An appreciated treat.<//><b>Effect:</b><.>Get 1 Golden Cat" %price="100000000 bread" %require="100000000 bread:earned" %effect="yield 1 goldenCat"]
-*/
+
 
 	//CAT UPGRADES
 /*
