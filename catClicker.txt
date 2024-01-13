@@ -126,7 +126,8 @@ Upgrades
 		on click:hide this
 
 	//General Upgrades
-
+/*
+	//disabled for updates
 	[include upgrade %id="canFood" %name="Canned Food" %description="Better than kibble at least.<//><b>Effect:</b><.>+1% bread" %price="100 bread" %require="100 bread:earned" %effect="multiply yield of bread by 1.01"]
 
 	[include upgrade %id="string" %name="A Bit of String" %description="Endless entertainment.<//><b>Effect:</b><.>+2% bread" %price="500 bread" %require="500 bread:earned" %effect="multiply yield of bread by 1.02"]
@@ -152,6 +153,7 @@ Upgrades
 	[include upgrade %id="catio" %name="Catio" %description="An outdoor space dedicated to the comfort of your cat.<//><b>Effect:</b><.>+2% bread" %price="10000000 bread" %require="10000000 bread:earned" %effect="multiply yield of bread by 1.02"]
 
 	[include upgrade %id="catNip" %name="Cat Nip" %description="An appreciated treat.<//><b>Effect:</b><.>+2% bread" %price="100000000 bread" %require="100000000 bread:earned" %effect="multiply yield of bread by 1.02"]
+*/
 
 	//CAT UPGRADES
 /*
