@@ -3,7 +3,7 @@ Let's make a game!
 	by:mark boutros
 	desc:a clicker game for cat lovers and chefs alike
 	created:01/05/2024
-	updated:01/05/2024
+	updated:01/12/2024
 	version:0.1
 
 	//link to play: https://orteil.dashnet.org/igm/?g=https://raw.githubusercontent.com/MarkNaSSIB/cat-click-cook/main/catClicker.txt
@@ -47,8 +47,14 @@ Buttons
 Resources
 	*bread
 	name:Bread|Bread
-	desc:This is your bread. You can use them to purchase things, the goal is to have as much bread as possible!
+	desc:This is your bread, you can use it to purchase things. the goal is to have as much bread as possible!
 	show earned
+
+	*goldenCat
+	name:Golden Cat|Golden Cats
+	desc: Each Golden Cat increases your Bread production by 1%. 
+	show earned
+	hidden when 0
 
 Shinies
 
@@ -128,31 +134,31 @@ Upgrades
 	//General Upgrades
 /*
 	//disabled for updates
-	[include upgrade %id="canFood" %name="Canned Food" %description="Better than kibble at least.<//><b>Effect:</b><.>+1% bread" %price="100 bread" %require="100 bread:earned" %effect="multiply yield of bread by 1.01"]
+	[include upgrade %id="canFood" %name="Canned Food" %description="Better than kibble at least.<//><b>Effect:</b><.>Get 1 Golden Cat" %price="100 bread" %require="100 bread:earned" %effect="yield 1 goldenCat"]
 
-	[include upgrade %id="string" %name="A Bit of String" %description="Endless entertainment.<//><b>Effect:</b><.>+2% bread" %price="500 bread" %require="500 bread:earned" %effect="multiply yield of bread by 1.02"]
+	[include upgrade %id="string" %name="A Bit of String" %description="Endless entertainment.<//><b>Effect:</b><.>Get 1 Golden Cat" %price="500 bread" %require="500 bread:earned" %effect="yield 1 goldenCat"]
 
-	[include upgrade %id="treat" %name="Treats" %description="I wonder what they taste like ...<//><b>Effect:</b><.>+2% bread" %price="1000 bread" %require="1000 bread:earned" %effect="multiply yield of bread by 1.02"]
+	[include upgrade %id="treat" %name="Treats" %description="I wonder what they taste like ...<//><b>Effect:</b><.>Get 1 Golden Cat" %price="1000 bread" %require="1000 bread:earned" %effect="yield 1 goldenCat"]
 
-	[include upgrade %id="cardboard" %name="Cardboard Box" %description="An impregnable fortress.<//><b>Effect:</b><.>+2% bread" %price="5000 bread" %require="5000 bread:earned" %effect="multiply yield of bread by 1.02"]
+	[include upgrade %id="cardboard" %name="Cardboard Box" %description="An impregnable fortress.<//><b>Effect:</b><.>Get 1 Golden Cat" %price="5000 bread" %require="5000 bread:earned" %effect="yield 1 goldenCat"]
 
-	[include upgrade %id="dinner" %name="A Little Bit of Dinner" %description="It couldn't hurt right? (Seriously always check before feeding human food to your cat)<//><b>Effect:</b><.>+2% bread" %price="10000 bread" %require="10000 bread:earned" %effect="multiply yield of bread by 1.02"]	
+	[include upgrade %id="dinner" %name="A Little Bit of Dinner" %description="It couldn't hurt right? (Seriously always check before feeding human food to your cat)<//><b>Effect:</b><.>+Get 1 Golden Cat" %price="10000 bread" %require="10000 bread:earned" %effect="yield 1 goldenCat"]	
 
-	[include upgrade %id="scratch" %name="Scratching Post" %description="Saves the furniture and leaves your cat with a lovely manicure, or is it a pedicure?<//><b>Effect:</b><.>+2% bread" %price="20000 bread" %require="20000 bread:earned" %effect="multiply yield of bread by 1.02"]
+	[include upgrade %id="scratch" %name="Scratching Post" %description="Saves the furniture and leaves your cat with a lovely manicure, or is it a pedicure?<//><b>Effect:</b><.>Get 1 Golden Cat" %price="20000 bread" %require="20000 bread:earned" %effect="yield 1 goldenCat"]
 
-	[include upgrade %id="fish" %name="Fresh Fish" %description="All natural and full of nutrients.<//><b>Effect:</b><.>+2% bread" %price="50000 bread" %require="50000 bread:earned" %effect="multiply yield of bread by 1.02"]
+	[include upgrade %id="fish" %name="Fresh Fish" %description="All natural and full of nutrients.<//><b>Effect:</b><.>Get 1 Golden Cat" %price="50000 bread" %require="50000 bread:earned" %effect="yield 1 goldenCat"]
 
-	[include upgrade %id="perch" %name="Window Perch" %description="A lovely view of the neighborhood.<//><b>Effect:</b><.>+2% bread" %price="100000 bread" %require="100000 bread:earned" %effect="multiply yield of bread by 1.02"]
+	[include upgrade %id="perch" %name="Window Perch" %description="A lovely view of the neighborhood.<//><b>Effect:</b><.>Get 1 Golden Cat" %price="100000 bread" %require="100000 bread:earned" %effect="yield 1 goldenCat"]
 
-	[include upgrade %id="homemade" %name="Homemade Cat Food" %description="Made with love.<//><b>Effect:</b><.>+2% bread" %price="500000 bread" %require="500000 bread:earned" %effect="multiply yield of bread by 1.02"]
+	[include upgrade %id="homemade" %name="Homemade Cat Food" %description="Made with love.<//><b>Effect:</b><.>Get 1 Golden Cat" %price="500000 bread" %require="500000 bread:earned" %effect="yield 1 goldenCat"]
 
-	[include upgrade %id="tree" %name="Deluxe Water Bowl" %description="A great use of your vertical space.<//><b>Effect:</b><.>+2% bread" %price="1000000 bread" %require="1000000 bread:earned" %effect="multiply yield of bread by 1.02"]
+	[include upgrade %id="tree" %name="Deluxe Water Bowl" %description="A great use of your vertical space.<//><b>Effect:</b><.>Get 1 Golden Cat" %price="1000000 bread" %require="1000000 bread:earned" %effect="yield 1 goldenCat"]
 
-	[include upgrade %id="deluxeBowl" %name="Deluxe Water Bowl" %description="A superior way to hydrate.<//><b>Effect:</b><.>+2% bread" %price="5000000 bread" %require="5000000 bread:earned" %effect="multiply yield of bread by 1.02"]
+	[include upgrade %id="deluxeBowl" %name="Deluxe Water Bowl" %description="A superior way to hydrate.<//><b>Effect:</b><.>Get 1 Golden Cat" %price="5000000 bread" %require="5000000 bread:earned" %effect="yield 1 goldenCat"]
 
-	[include upgrade %id="catio" %name="Catio" %description="An outdoor space dedicated to the comfort of your cat.<//><b>Effect:</b><.>+2% bread" %price="10000000 bread" %require="10000000 bread:earned" %effect="multiply yield of bread by 1.02"]
+	[include upgrade %id="catio" %name="Catio" %description="An outdoor space dedicated to the comfort of your cat.<//><b>Effect:</b><.>Get 1 Golden Cat" %price="10000000 bread" %require="10000000 bread:earned" %effect="yield 1 goldenCat"]
 
-	[include upgrade %id="catNip" %name="Cat Nip" %description="An appreciated treat.<//><b>Effect:</b><.>+2% bread" %price="100000000 bread" %require="100000000 bread:earned" %effect="multiply yield of bread by 1.02"]
+	[include upgrade %id="catNip" %name="Cat Nip" %description="An appreciated treat.<//><b>Effect:</b><.>Get 1 Golden Cat" %price="100000000 bread" %require="100000000 bread:earned" %effect="yield 1 goldenCat"]
 */
 
 	//CAT UPGRADES
