@@ -272,7 +272,7 @@ Buildings
 	*include cat %id %name %description %price %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
 		*cat[%id]
 			name:[%name]
-			desc:[%description]<//><b>Effect:</b><.>Produces <b>[%effect]</b> per second.<.>[%id] give you <b>[cat[%id]*[%effect]] bread</b> per second.(<b>[cat[%id]*[%effect]/bread:ps]%</b> of total BPS.)
+			desc:[%description]<//><b>Effect:</b><.>Produces <b>[[%effect]*1]</b> per second.<.>[cat[%id]] [p:this] give you <b>[cat[%id]*[%effect]] bread</b> per second.(<b>[100*cat[%id]*[%effect]/bread:ps]%</b> of total BPS.)
 			cost:[%price] bread
 			req:[%price] bread:earned
 			on tick:yield [%effect] bread
@@ -373,7 +373,7 @@ Includes
 	*include cat %id %name %description %price %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
 		*cat[%id]
 			name:[%name]
-			desc:[%description]<//><b>Effect:</b><.>Produces <b>[[%effect]*1]</b> per second.<.>[cat[%id]] [p:this] give you <b>[cat[%id]*[%effect]] bread</b> per second.(<b>[cat[%id]*[%effect]/bread:ps]%</b> of total BPS.)
+			desc:[%description]<//><b>Effect:</b><.>Produces <b>[[%effect]*1]</b> per second.<.>[cat[%id]] [p:this] give you <b>[cat[%id]*[%effect]] bread</b> per second.(<b>[100*cat[%id]*[%effect]/bread:ps]%</b> of total BPS.)
 			cost:[%price] bread
 			req:[%price] bread:earned
 			on tick:yield [%effect] bread
