@@ -157,8 +157,6 @@ Upgrades
 
 	[include upgrade %id="catNip" %name="Cat Nip" %description="An appreciated treat.<//><b>Effect:</b><.>Get 1 Golden Cat" %price="100000000 bread" %require="100000000 bread:earned" %effect="yield 1 goldenCat"]
 
-	[include upgrade %id="gldCat" %name="The Golden Cat" %description="What a friendly wave.<//><b>Effect:</b><.>Enables Bread Gain from golden cast" %price="100 bread" %require="100 bread:earned" %effect="yield 1 goldenCat"]
-
 	*gldCat
 		name:The Gold Cat
 		desc:What a friendly wave.<//><b>Effect:</b><.>Enables Bread Gain from Golden Cats
