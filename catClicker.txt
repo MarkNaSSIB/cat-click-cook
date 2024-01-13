@@ -111,14 +111,14 @@ Buildings
 	[include cat %id="cougar" %name="Cougar|Cougars" %description="AKA Puma, Mountain Lion, Catamount, and Panther." %price="10000000000" %effect="100000000"] 
 	
 	[include cat %id="cheetah" %name="Cheetah|Cheetahs" %description="The fastest land animal on the planet, capable of going 0 - 60 mph in under 3 seconds." %price="1000000000000" %effect="10000000000"] 
-	
+
 	[include cat %id="leopard" %name="Leopard|Leopards" %description="Also Known as Panthers, their distinctive rosette patterns strike fear into all who see them." %price="100000000000000" %effect="1000000000000"] 
 	
-	[include cat %id="jaguar" %name="Jaguar|Jaguars" %description="The only big cat native to the Americas." %price="1000000000000000" %effect="10000000000000"] 
+	[include cat %id="jaguar" %name="Jaguar|Jaguars" %description="The only big cat native to the Americas." %price="10000000000000000" %effect="100000000000000"] 
 	
-	[include cat %id="tiger" %name="Tiger|Tigers" %description="The Apex Predators of Asia. Cool stripes too." %price="100000000000000000" %effect="1000000000000000"] 
+	[include cat %id="tiger" %name="Tiger|Tigers" %description="The Apex Predators of Asia. Cool stripes too." %price="1000000000000000000" %effect="10000000000000000"] 
 
-	[include cat %id="lion" %name="Lion|Lions" %description="The fluffiest cat." %price="10000000000000000000" %effect="100000000000000000"] 
+	[include cat %id="lion" %name="Lion|Lions" %description="The fluffiest cat." %price="100000000000000000000" %effect="1000000000000000000"] 
 
 Upgrades
 	*TEMPLATE
