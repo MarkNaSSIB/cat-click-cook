@@ -53,6 +53,7 @@ Resources
 	*goldenCat
 	name:Golden Cat|Golden Cats
 	desc:Each Golden Cat increases your Bread production by 1%. <//><b>Effect:</b><.>[goldenCat*1] Golden Cats giving you <b>[goldenCat*bread:ps] bread</b>.
+	on tick:yield [goldenCat*bread:ps] bread
 	show earned
 	hidden when 0
 
