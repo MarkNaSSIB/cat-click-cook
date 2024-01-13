@@ -97,7 +97,7 @@ Buildings
 
 	[include cat %id="blackfoot" %name="lack-Footed Cat|Black-Footed Cats" %description="Guess what color their feet are?" %price="500000" %effect="5000"] 
 	
-	[include cat %id="mountain" %name="Chinese Mtn Cat|Chinese Mtn Cats" %description="Insert politically correct joke here." %price="1000000" %effect="100000"] 
+	[include cat %id="mountain" %name="Chinese Mtn Cat|Chinese Mtn Cats" %description="Insert politically correct joke here." %price="1000000" %effect="10000"] 
 
 	[include cat %id="sand" %name="Sand Cat|Sand Cats" %description="Mammalia Carnivora Felidae Felinae Felis Margarita." %price="5000000" %effect="50000"] 
 	
