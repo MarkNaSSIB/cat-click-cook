@@ -128,7 +128,6 @@ Buildings
 Upgrades
 	*TEMPLATE
 		on click:anim glow
-		on click:hide this
 
 	//General Upgrades
 
