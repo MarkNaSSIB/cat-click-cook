@@ -162,7 +162,7 @@ Upgrades
 		desc:What a friendly wave.<//><b>Effect:</b><.>Enables Bread Gain from Golden Cats
 		cost:100 bread
 		req:100 bread:earned
-		passive:yield [0.01*goldenCat*bread:ps] bread
+		passive:yield 0.01*goldenCat*bread:ps bread
 		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 
 	//CAT UPGRADES
