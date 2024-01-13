@@ -56,217 +56,6 @@ Buildings
 	*TEMPLATE
 		on click:anim glow
 		
-	*kitten|kittens
-		name:Kitten|Kittens
-		desc:A tiny little kitten.<//><b>Effect:</b><.>Produces <b>1 bread</b> every 10 seconds.<.>[kittens] give you <b>[kittens/10] bread</b> per second.(<b>[0.1*kittens/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:10 bread
-		on tick:yield 0.1 bread
-		unlocked
-
-/*
-	//removed for overcrowding
-	*shorthair|shorthairs
-		name:Domestic Shorthair|Domestic Shorthairs
-		desc:One of the most common house cats in the world!<//><b>Effect:</b><.>Produces <b>5 bread</b> every 10 seconds.<.>[shorthairs] give you <b>[shorthairs/2] bread</b> per second.(<b>[shorthairs/2/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:50 bread
-		on tick:yield 0.5 bread
-		req:50 bread:earned
-*/
-
-	*munchkin|munchkins
-		name:Munchkin|Munchkins
-		desc:Also known as the 'Sausage Cat', munchkins are known for the small legs!<//><b>Effect:</b><.>Produces <b>1 bread</b> per second.<.>[munchkins] give you <b>[munchkins] bread</b> per second.(<b>[munchkins/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:100 bread
-		on tick:yield 1 bread
-		req:100 bread:earned
-
-/*
-	//removed for overcrowding
-	*ragdoll|ragdolls
-		name:Ragdoll|Ragdolls
-		desc:A very affectionate cat, known for their receptiveness to handling.<//><b>Effect:</b><.>Produces <b>2 bread</b> per second.<.>[ragdolls] give you <b>[ragdolls*2] bread</b> per second.(<b>[ragdolls*2/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:200 bread
-		on tick:yield 2 bread
-		req:200 bread:earned
-*/
-
-
-	*bengal|bengals
-		name:Bengal|Bengals
-		desc:One of the rarest and most expensive house cats in the world<//><b>Effect:</b><.>Produces <b>5 bread</b> every second.<.>[bengals] give you <b>[bengals*5] bread</b> per second.(<b>[bengals*5/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true		
-		cost:500 bread
-		on tick:yield 5 bread
-		req:500 bread:earned
-
-	*scottish|scots
-		name:Scottish Fold|Scottish Folds
-		desc:1989<//><b>Effect:</b><.>Produces <b>10 bread</b> per second.<.>[scots] give you <b>[scots*10] bread</b> per second.(<b>[scots*10/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:1000 bread
-		on tick:yield 10 bread
-		req:1000 bread:earned
-
-/*
-	//removed for overcrowding
-	*toyger|toygers
-		name:Toyger|Toygers
-		desc:A toy Tiger!<//><b>Effect:</b><.>Produces <b>25 bread</b> per second.<.>[toygers] give you <b>[toygers*25] bread</b> per second.(<b>[toygers*25/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:2500 bread
-		on tick:yield 25 bread
-		req:2500 bread:earned
-*/
-	
-	*russian|russians
-		name:Russian Blue|Russian Blues
-		desc:Priviet<//><b>Effect:</b><.>Produces <b>50 bread</b> per second.<.>[russians] give you <b>[russians*50] bread</b> per second.(<b>[russians*50/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:5000 bread
-		on tick:yield 50 bread
-		req:5000 bread:earned
-
-	*egyptian|egyptians
-		name:Egyptian Mau|Egyptian Mau
-		desc:Ahlan wa Sahlan<//><b>Effect:</b><.>Produces <b>100 bread</b> per second.<.>[egyptians] give you <b>[egyptians*100] bread</b> per second.(<b>[egyptians*100/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:10000 bread
-		on tick:yield 100 bread
-		req:10000 bread:earned
-	
-	*wildcat|wildcats
-		name:Wildcat|Wildcats
-		desc:If not friend, why friend shaped?<//><b>Effect:</b><.>Produces <b>500 bread</b> per second.<.>[wildcats] give you <b>[wildcats*500] bread</b> per second.(<b>[wildcats*500/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:50000 bread
-		on tick:yield 500 bread
-		req:50000 bread:earned
-
-	*jungle|jungles
-		name:Jungle Cat|Jungle Cats
-		desc:"Meow" -The Trees<//><b>Effect:</b><.>Produces <b>1000 bread</b> per second.<.>[jungles] give you <b>[jungles*1000] bread</b> per second.(<b>[jungles*1000/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:100000 bread
-		on tick:yield 1000 bread
-		req:100000 bread:earned
-
-	*blackFoot|blackFeet
-		name:Black-Footed Cat|Black-Footed Cats
-		desc:Guess what color their feet are?<//><b>Effect:</b><.>Produces <b>5000 bread</b> per second.<.>[blackFeet] give you <b>[blackFeet*5000] bread</b> per second.(<b>[blackFeet*5000/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:500000 bread
-		on tick:yield 5000 bread
-		req:500000 bread:earned
-
-	*mtncat|mtncats
-		name:Chinese Mtn Cat|Chinese Mtn Cats
-		desc:Insert politically correct joke here<//><b>Effect:</b><.>Produces <b>10000 bread</b> per second.<.>[mtncats] give you <b>[mtncats*10000] bread</b> per second.(<b>[mtncats*10000/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:1000000 bread
-		on tick:yield 100000 bread
-		req:1000000 bread:earned
-
-	*sand|sands
-		name:Sand Cat|Sand Cats
-		desc:Mammalia Carnivora Felidae Felinae Felis Margarita<//><b>Effect:</b><.>Produces <b>50000 bread</b> per second.<.>[sands] give you <b>[sands*50000] bread</b> per second.(<b>[sands*50000/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:5000000 bread
-		on tick:yield 50000 bread
-		req:5000000 bread:earned
-
-	*pallas|pallass
-		name:Pallas's Cat|Pallas's Cats
-		desc:Sooo fluffy!<//><b>Effect:</b><.>Produces <b>100000 bread</b> per second.<.>[pallass] give you <b>[pallass*100000] bread</b> per second.(<b>[pallass*100000/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:10000000 bread
-		on tick:yield 100000 bread
-		req:10000000 bread:earned
-
-	*bobcat|bobcats
-		name:Bobcat|Bobcats
-		desc:Also known as the red lynx, distinguished by its 'bobbed' tail<//><b>Effect:</b><.>Produces <b>500000 bread</b> per second.<.>[bobcats] give you <b>[bobcats*500000] bread</b> per second.(<b>[bobcats*500000/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:50000000 bread
-		on tick:yield 500000 bread
-		req:50000000 bread:earned
-
-	*lynx|lynxs
-		name:Lynx|Lynxes
-		desc:Khajit has wares ... if you have coin.<//><b>Effect:</b><.>Produces <b>1000000 bread</b> per second.<.>[lynxs] give you <b>[lynxs*1000000] bread</b> per second.(<b>[lynxs*1000000/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:100000000 bread
-		on tick:yield 1000000 bread
-		req:100000000 bread:earned
-
-
-	*ocelot|ocelots
-		name:Ocelot|Ocelots
-		desc:Salvador Dali had a pet ocelot named Babou.<//><b>Effect:</b><.>Produces <b>5000000 bread</b> per second.<.>[ocelots] give you <b>[ocelots*5000000] bread</b> per second.(<b>[100*ocelots*5000000/bread:ps]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:500000000 bread
-		on tick:yield 5000000 bread
-		req:500000000 bread:earned
-
-	*carcal|carcals
-		name:Carcal|Carcals
-		desc:Ancient Egyptians, Persians, and Indians were known to raise carcals as hunting companions.<//><b>Effect:</b><.>Produces <b>10000000 bread</b> per second.<.>[carcals] give you <b>[carcals*10000000] bread</b> per second.(<b>[100*carcals*10000000/bread:ps]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:1000000000 bread
-		on tick:yield 10000000 bread
-		req:1000000000 bread:earned
-
-	*serval|servals
-		name:Serval|Servals
-		desc:Sometimes called the 'giraffe cat', servals get there name from a Portugese word meaning 'wolf-deer'.<//><b>Effect:</b><.>Produces <b>50000000 bread</b> per second.<.>[servals] give you <b>[servals*50000000] bread</b> per second.(<b>[100*servals*50000000/bread:ps]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:5000000000 bread
-		on tick:yield 50000000 bread
-		req:5000000000 bread:earned
-
-	*cougar|cougars
-		name:Cougar|Cougars
-		desc:AKA Puma, Mountain Lion, Catamount, and Panther<//><b>Effect:</b><.>Produces <b>100000000 bread</b> per second.<.>[cougars] give you <b>[cougars*100000000] bread</b> per second.(<b>[cougars*100000000/bread:ps*100]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:10000000000 bread
-		on tick:yield 100000000 bread
-		req:10000000000 bread:earned
-
-	*cheetah|cheetahs
-		name:Cheetah|Cheetahs
-		desc:The fastest land animal on the planet, capable of going 0 - 60 mph in under 3 seconds.<//><b>Effect:</b><.>Produces <b>10000000000 bread</b> per second.<.>[cheetahs] give you <b>[cheetahs*10000000000] bread</b> per second.(<b>[100*cheetahs*10000000000/bread:ps]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:1000000000000 bread
-		on tick:yield 10000000000 bread
-		req:1000000000000 bread:earned
-
-	*leopard|leopards
-		name:Leopard|Leopards
-		desc:Also Known as Panthers, their distinctive rosette patterns strike fear into all who see them.<//><b>Effect:</b><.>Produces <b>1000000000000 bread</b> per second.<.>[leopards] give you <b>[leopards*1000000000000] bread</b> per second.(<b>[100*leopards*1000000000000/bread:ps]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:100000000000000 bread
-		on tick:yield 1000000000000 bread
-		req:100000000000000 bread:earned
-
-	*jaguar|jaguars
-		name:Jaguar|Jaguars
-		desc:The only big cat native to North America.<//><b>Effect:</b><.>Produces <b>10000000000000 bread</b> per second.<.>[jaguars] give you <b>[jaguars*10000000000000] bread</b> per second.(<b>[100*jaguars*10000000000000/bread:ps]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:1000000000000000 bread
-		on tick:yield 10000000000000 bread
-		req:1000000000000000 bread:earned
-
-	*tiger|tigers
-		name:Tiger|Tigers
-		desc:The Apex Predators of Asia. Cool stripes too.<//><b>Effect:</b><.>Produces <b>1000000000000000 bread</b> per second.<.>[tigers] give you <b>[tigers*1000000000000000] bread</b> per second.(<b>[100*tigers*1000000000000000/bread:ps]%</b> of total BPS.)
-		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
-		cost:100000000000000000 bread
-		on tick:yield 1000000000000000 bread
-		req:100000000000000000 bread:earned
-
 /*
 	//template layout
 	*include cat %id %name %description %price %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
@@ -278,13 +67,58 @@ Buildings
 			on tick:yield [%effect] bread
 			icon:[%picture]
 
-	// ex) [include cat %id="kitten|kittens" %name="Kitten|Kittens" %price="1" %effect=".1"] 
+	// ex) [include cat %id="kitten" %name="Kitten|Kittens" %description="A Tiny Little Kitten!" %price="10" %effect="0.1"] 
+
 */
 
-	[include cat %id="mittens" %name="Mittens" %description="Best Cat" %price="1000" %effect="69"] 
+
+	// [include cat %id="mittens" %name="Mittens" %description="Best Cat" %price="1000" %effect="69"] 
+
+	[include cat %id="kitten" %name="Kitten|Kittens" %description="A Tiny Little Kitten!" %price="10" %effect="0.1"] 
+	
+	[include cat %id="munchkin" %name="Munchkin|Munchkins" %description="Also known as the 'Sausage Cat', munchkins are known for the small legs!" %price="100" %effect="1"] 
+
+	[include cat %id="bengal" %name="Bengal|Bengals" %description="One of the rarest and most expensive house cats in the world." %price="500" %effect="5"] 
+	
+	[include cat %id="scottish" %name="Scottish Fold|Scottish Folds" %description="1989." %price="1000" %effect="10"] 
+
+	[include cat %id="russian" %name="Russian Blue|Russian Blues" %description="Priviet." %price="5000" %effect="50"] 
+	
+	[include cat %id="egyptian" %name="Egyptian Mau|Egyptian Maus" %description="Ahlan wa Sahlan" %price="10000" %effect="100"] 
+
+	[include cat %id="wildcat" %name="Wildcat|Wildcats" %description="If not friend, why friend shaped?" %price="50000" %effect="500"] 
+	
+	[include cat %id="jungle" %name="Jungle Cat|Jungle Cats" %description="'Meow' - The Trees" %price="100000" %effect="1000"] 
+
+	[include cat %id="blackfoot" %name="lack-Footed Cat|Black-Footed Cats" %description="Guess what color their feet are?" %price="500000" %effect="5000"] 
+	
+	[include cat %id="mountain" %name="Chinese Mtn Cat|Chinese Mtn Cats" %description="Insert politically correct joke here." %price="1000000" %effect="100000"] 
+
+	[include cat %id="sand" %name="Sand Cat|Sand Cats" %description="Mammalia Carnivora Felidae Felinae Felis Margarita." %price="5000000" %effect="50000"] 
+	
+	[include cat %id="pallas" %name="Pallas's Cat|Pallas's Cats" %description="Sooo fluffy!" %price="10000000" %effect="100000"] 
+
+	[include cat %id="bobcat" %name="Bobcat|Bobcats" %description="Also known as the red lynx, distinguished by its 'bobbed' tail." %price="50000000" %effect="500000"] 
+	
+	[include cat %id="lynx" %name="Lynx|Lynxs" %description="Khajit has wares ... if you have coin." %price="100000000" %effect="1000000"] 
+
+	[include cat %id="ocelot" %name="Ocelot|Ocelots" %description="Salvador Dali had a pet ocelot named Babou." %price="500000000" %effect="5000000"] 
+	
+	[include cat %id="carcal" %name="Carcal|Carcals" %description="Ancient Egyptians, Persians, and Indians were known to raise carcals as hunting companions." %price="1000000000" %effect="10000000"] 
+	
+	[include cat %id="serval" %name="Serval|Servals" %description="Sometimes called the 'giraffe cat', servals get there name from a Portugese word meaning 'wolf-deer'." %price="5000000000" %effect="50000000"] 
+	
+	[include cat %id="cougar" %name="Cougar|Cougars" %description="AKA Puma, Mountain Lion, Catamount, and Panther." %price="10000000000" %effect="100000000"] 
+	
+	[include cat %id="cheetah" %name="Cheetah|Cheetahs" %description="The fastest land animal on the planet, capable of going 0 - 60 mph in under 3 seconds." %price="1000000000000" %effect="10000000000"] 
+	
+	[include cat %id="leopard" %name="Leopard|Leopards" %description="Also Known as Panthers, their distinctive rosette patterns strike fear into all who see them." %price="100000000000000" %effect="1000000000000"] 
+	
+	[include cat %id="jaguar" %name="Jaguar|Jaguars" %description="The only big cat native to the Americas." %price="1000000000000000" %effect="10000000000000"] 
+	
+	[include cat %id="tiger" %name="Tiger|Tigers" %description="The Apex Predators of Asia. Cool stripes too." %price="100000000000000000" %effect="1000000000000000"] 
 
 	[include cat %id="lion" %name="Lion|Lions" %description="The fluffiest cat." %price="10000000000000000000" %effect="100000000000000000"] 
-
 
 Upgrades
 	*TEMPLATE
@@ -373,11 +207,8 @@ Includes
 	*include cat %id %name %description %price %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
 		*cat[%id]
 			name:[%name]
-			desc:[%description]<//><b>Effect:</b><.>Produces <b>[[%effect]*1]</b> per second.<.>[cat[%id]] [p:this] give you <b>[cat[%id]*[%effect]] bread</b> per second.(<b>[100*cat[%id]*[%effect]/bread:ps]%</b> of total BPS.)
+			desc:[%description]<//><b>Effect:</b><.>Produces <b>[[%effect]*1]</b> per second.<.>[cat[%id]] [p:this] give you <b>[cat[%id]*[%effect]] bread</b> per second.(<b>[100.0*cat[%id]*[%effect]/bread:ps]%</b> of total BPS.)
 			cost:[%price] bread
 			req:[%price] bread:earned
 			on tick:yield [%effect] bread
 			icon:[%picture]
-
-
-
