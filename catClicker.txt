@@ -157,6 +157,15 @@ Upgrades
 
 	[include upgrade %id="catNip" %name="Cat Nip" %description="An appreciated treat.<//><b>Effect:</b><.>Get 1 Golden Cat" %price="100000000 bread" %require="100000000 bread:earned" %effect="yield 1 goldenCat"]
 
+	[include upgrade %id="gldCat" %name="The Golden Cat" %description="What a friendly wave.<//><b>Effect:</b><.>Enables Bread Gain from golden cast" %price="100 bread" %require="100 bread:earned" %effect="yield 1 goldenCat"]
+
+	*gldCat
+		name:Golden Cat
+		desc:What a friendly wave.<//><b>Effect:</b><.>Enables Bread Gain from Golden Cats
+		cost:100 bread
+		req:100 bread:earned
+		passive:yield [0.01*goldenCat*bread:ps] bread
+		icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true
 
 	//CAT UPGRADES
 /*
