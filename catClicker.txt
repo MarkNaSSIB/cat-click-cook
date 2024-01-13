@@ -52,7 +52,7 @@ Resources
 
 	*goldenCat
 	name:Golden Cat|Golden Cats
-	desc: Each Golden Cat increases your Bread production by 1%. 
+	desc:Each Golden Cat increases your Bread production by 1%. 
 	show earned
 	hidden when 0
 
