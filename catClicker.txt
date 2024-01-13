@@ -53,7 +53,6 @@ Resources
 	*goldenCat
 	name:Golden Cat|Golden Cats
 	desc:Each Golden Cat increases your Bread production by 1%. <//><b>Effect:</b><.>[goldenCat*1] Golden Cats giving you <b>[0.01*goldenCat*bread:ps] bread</b>.
-	on tick:yield [0.01*goldenCat*bread:ps] bread
 	show earned
 	hidden when 0
 
@@ -209,7 +208,7 @@ Includes
 			on click:[%effect]
 			icon:[%picture]
 
-	//Cat template (ToDo: templatify cats, figure out how to use templates with variables)
+	//Cat template
 	*include cat %id %name %description %price %effect %picture="https://github.com/MarkNaSSIB/cat-click-cook/blob/main/48x48.png?raw=true"
 		*cat[%id]
 			name:[%name]
