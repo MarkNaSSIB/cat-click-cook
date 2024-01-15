@@ -50,7 +50,7 @@ Resources
 	*bread
 	name:Bread|Bread
 	desc:This is your bread, you can use it to purchase things. the goal is to have as much bread as possible!
-	icon:foods[3,1]
+	icon:foods[2,1]
 	show earned
 
 	*goldenCat
