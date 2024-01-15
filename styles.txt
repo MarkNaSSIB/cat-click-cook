@@ -134,7 +134,9 @@
 .building
 {
 	display:block;
+	margin-left:0px;
 	margin-right:0px;
+	z-index:10;
 	font-size:14px;
 	float:left;
 }
