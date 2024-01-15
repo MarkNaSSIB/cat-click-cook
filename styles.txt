@@ -136,7 +136,7 @@
 	display:block;
 	margin-right:0px;
 	font-size:14px;
-	align:left;
+	float:left;
 }
 
 .fullWidth
