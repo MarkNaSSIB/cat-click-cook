@@ -14,7 +14,7 @@ Settings
 	building cost refund:100%
 	spritesheet:icons, 48 by 48, https://github.com/MarkNaSSIB/cat-click-cook/blob/main/catSprites12x12.png?raw=true
 	spritesheet:foods, 48 by 48, https://github.com/MarkNaSSIB/cat-click-cook/blob/main/food.png?raw=true
-	stylesheet:stuff/basic.css
+	stylesheet:https://raw.githubusercontent.com/MarkNaSSIB/cat-click-cook/main/styles.txt
 
 Layout
 	*main
