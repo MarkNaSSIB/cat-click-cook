@@ -80,37 +80,37 @@ Buildings
 
 	// [include cat %id="mittens" %name="Mittens" %description="Best Cat" %price="1000" %effect="69"] 
 
-	[include cat %id="kitten" %name="Kitten|Kittens" %description="A Tiny Little Kitten!" %price="10" %effect="0.1"] 
+	[include cat %id="kitten" %name="Kitten|Kittens" %description="A Tiny Little Kitten!" %price="10" %effect="0.1" %picture="icons[2,0]"] 
 	
-	[include cat %id="munchkin" %name="Munchkin|Munchkins" %description="Also known as the 'Sausage Cat', munchkins are known for the small legs!" %price="100" %effect="1"] 
+	[include cat %id="munchkin" %name="Munchkin|Munchkins" %description="Also known as the 'Sausage Cat', munchkins are known for the small legs!" %price="100" %effect="1" %picture="icons[8,0]"] 
 
-	[include cat %id="bengal" %name="Bengal|Bengals" %description="One of the rarest and most expensive house cats in the world." %price="500" %effect="5"] 
+	[include cat %id="bengal" %name="Bengal|Bengals" %description="One of the rarest and most expensive house cats in the world." %price="500" %effect="5" %picture="icons[11,3]"] 
 	
-	[include cat %id="scottish" %name="Scottish Fold|Scottish Folds" %description="1989." %price="1000" %effect="10"] 
+	[include cat %id="scottish" %name="Scottish Fold|Scottish Folds" %description="1989." %price="1000" %effect="10" %picture="icons[5,3]"] 
 
-	[include cat %id="russian" %name="Russian Blue|Russian Blues" %description="Priviet." %price="5000" %effect="50"] 
+	[include cat %id="russian" %name="Russian Blue|Russian Blues" %description="Priviet." %price="5000" %effect="50" %picture="icons[5,0]"] 
 	
-	[include cat %id="egyptian" %name="Egyptian Mau|Egyptian Maus" %description="Ahlan wa Sahlan" %price="10000" %effect="100"] 
+	[include cat %id="egyptian" %name="Egyptian Mau|Egyptian Maus" %description="Ahlan wa Sahlan" %price="10000" %effect="100" %picture="icons[2,3]"] 
 
-	[include cat %id="wildcat" %name="Wildcat|Wildcats" %description="If not friend, why friend shaped?" %price="50000" %effect="500"] 
+	[include cat %id="wildcat" %name="Wildcat|Wildcats" %description="If not friend, why friend shaped?" %price="50000" %effect="500" %picture="icons[8,3]"] 
 	
-	[include cat %id="jungle" %name="Jungle Cat|Jungle Cats" %description="'Meow' - The Trees" %price="100000" %effect="1000"] 
+	[include cat %id="jungle" %name="Jungle Cat|Jungle Cats" %description="'Meow' - The Trees" %price="100000" %effect="1000" %picture="icons[11,0]"] 
 
-	[include cat %id="blackfoot" %name="lack-Footed Cat|Black-Footed Cats" %description="Guess what color their feet are?" %price="500000" %effect="5000"] 
+	[include cat %id="blackfoot" %name="lack-Footed Cat|Black-Footed Cats" %description="Guess what color their feet are?" %price="500000" %effect="5000" %picture="icons[8,6]"] 
 	
-	[include cat %id="mountain" %name="Chinese Mtn Cat|Chinese Mtn Cats" %description="Insert politically correct joke here." %price="1000000" %effect="10000"] 
+	[include cat %id="mountain" %name="Chinese Mtn Cat|Chinese Mtn Cats" %description="Insert politically correct joke here." %price="1000000" %effect="10000" %picture="icons[5,6]"] 
 
-	[include cat %id="sand" %name="Sand Cat|Sand Cats" %description="Mammalia Carnivora Felidae Felinae Felis Margarita." %price="5000000" %effect="50000"] 
+	[include cat %id="sand" %name="Sand Cat|Sand Cats" %description="Mammalia Carnivora Felidae Felinae Felis Margarita." %price="5000000" %effect="50000" %picture="icons[11,6]"] 
 	
-	[include cat %id="pallas" %name="Pallas's Cat|Pallas's Cats" %description="Sooo fluffy!" %price="10000000" %effect="100000"] 
+	[include cat %id="pallas" %name="Pallas's Cat|Pallas's Cats" %description="Sooo fluffy!" %price="10000000" %effect="100000" %picture="icons[2,6]"] 
 
-	[include cat %id="bobcat" %name="Bobcat|Bobcats" %description="Also known as the red lynx, distinguished by its 'bobbed' tail." %price="50000000" %effect="500000"] 
+	[include cat %id="bobcat" %name="Bobcat|Bobcats" %description="Also known as the red lynx, distinguished by its 'bobbed' tail." %price="50000000" %effect="500000" %picture="icons[8,9]"] 
 	
-	[include cat %id="lynx" %name="Lynx|Lynxs" %description="Khajit has wares ... if you have coin." %price="100000000" %effect="1000000"] 
+	[include cat %id="lynx" %name="Lynx|Lynxs" %description="Khajit has wares ... if you have coin." %price="100000000" %effect="1000000" %picture="icons[2,9]"] 
 
-	[include cat %id="ocelot" %name="Ocelot|Ocelots" %description="Salvador Dali had a pet ocelot named Babou." %price="500000000" %effect="5000000"] 
+	[include cat %id="ocelot" %name="Ocelot|Ocelots" %description="Salvador Dali had a pet ocelot named Babou." %price="500000000" %effect="5000000" %picture="icons[11,9]"] 
 	
-	[include cat %id="carcal" %name="Carcal|Carcals" %description="Ancient Egyptians, Persians, and Indians were known to raise carcals as hunting companions." %price="1000000000" %effect="10000000"] 
+	[include cat %id="carcal" %name="Carcal|Carcals" %description="Ancient Egyptians, Persians, and Indians were known to raise carcals as hunting companions." %price="1000000000" %effect="10000000" %picture="icons[5,9]"] 
 	
 	[include cat %id="serval" %name="Serval|Servals" %description="Sometimes called the 'giraffe cat', servals get there name from a Portugese word meaning 'wolf-deer'." %price="5000000000" %effect="50000000"] 
 	
