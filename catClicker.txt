@@ -13,6 +13,7 @@ Settings
 	building cost increase:110%
 	building cost refund:100%
 	spritesheet:icons, 48 by 48, https://github.com/MarkNaSSIB/cat-click-cook/blob/main/catSprites12x12.png?raw=true
+	spritesheet:foods, 48 by 48, https://github.com/MarkNaSSIB/cat-click-cook/blob/main/food.png?raw=true
 	stylesheet:stuff/basic.css
 
 Layout
@@ -40,7 +41,7 @@ Buttons
 	desc:Click this ball of dough to knead it, yielding a bread!
 	on click:anim icon wibble
 	on click:yield 1 bread
-	icon:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/256x256.png?raw=true
+	icon:foods[2,0]
 	no text
 	class:bigButton hasFlares
 	icon class:shadowed
@@ -49,6 +50,7 @@ Resources
 	*bread
 	name:Bread|Bread
 	desc:This is your bread, you can use it to purchase things. the goal is to have as much bread as possible!
+	icon:foods[3,1]
 	show earned
 
 	*goldenCat
