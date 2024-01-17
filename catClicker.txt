@@ -62,10 +62,10 @@ Resources
 Shinies
 	*luckyKitten
 	name:Lucky Kitten
-	on click: yield (random(5,10))*bread:ps bread
-	movement: onLeft bounce:4 moveRight
+	on click:yield (random(5,10))*bread:ps bread
+	movement:onLeft bounce:4 moveRight
 	icon:icons[2,4]
-	frequency: 2
+	frequency:2
 
 Buildings
 	*TEMPLATE
