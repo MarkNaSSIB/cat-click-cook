@@ -60,6 +60,12 @@ Resources
 	hidden when 0
 
 Shinies
+	*luckyKitten
+	name:Lucky Kitten
+	on click: yield (random(5,10))*bread:ps bread
+	movement: onLeft bounce:4 moveRight
+	icon:icons[2,4]
+	frequency: 10
 
 Buildings
 	*TEMPLATE
