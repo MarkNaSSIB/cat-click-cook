@@ -29,11 +29,13 @@ Layout
 	*buildings
 		contains:BulkDisplay, Buildings
 		header:Cats
+		costs:hide
 		tooltip origin:left
 	*upgrades
 		contains:Upgrades
 		header:Upgrades
 		costs:hide
+		tooltip origin:right
 
 Buttons
 	*doughButton
@@ -70,7 +72,7 @@ Shinies
 Buildings
 	*TEMPLATE
 		on click:anim glow
-		costs:hide
+
 		
 /*
 	//template layout
