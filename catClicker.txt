@@ -65,7 +65,7 @@ Shinies
 	on click: yield (random(5,10))*bread:ps bread
 	movement: onLeft bounce:4 moveRight
 	icon:icons[2,4]
-	frequency: 10
+	frequency: 2
 
 Buildings
 	*TEMPLATE
