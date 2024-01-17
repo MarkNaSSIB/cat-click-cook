@@ -72,7 +72,6 @@ Shinies
 Buildings
 	*TEMPLATE
 		on click:anim glow
-
 		
 /*
 	//template layout
