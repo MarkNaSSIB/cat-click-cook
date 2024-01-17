@@ -70,6 +70,7 @@ Shinies
 Buildings
 	*TEMPLATE
 		on click:anim glow
+		costs:hide
 		
 /*
 	//template layout
