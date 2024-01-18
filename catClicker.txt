@@ -67,7 +67,7 @@ Shinies
 	on click:yield .01*bread:ps bread
 	movement:onLeft bounce wiggle moveRight
 	icon:icons[4,2]
-	frequency:2
+	frequency:5
 	no text
 
 Buildings
