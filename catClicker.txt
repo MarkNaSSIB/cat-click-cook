@@ -9,7 +9,7 @@ Let's make a game!
 	//link to play: https://orteil.dashnet.org/igm/?g=https://raw.githubusercontent.com/MarkNaSSIB/cat-click-cook/main/catClicker.txt
 
 Settings
-	background:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/1600x800.png?raw=true
+	background:https://github.com/MarkNaSSIB/cat-click-cook/blob/main/meadowILL.png?raw=true
 	building cost increase:110%
 	building cost refund:100%
 	spritesheet:icons, 48 by 48, https://github.com/MarkNaSSIB/cat-click-cook/blob/main/catSprites12x12.png?raw=true
