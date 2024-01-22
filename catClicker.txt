@@ -65,6 +65,7 @@ Shinies
 	*luckyKitten
 	name:Lucky Kitten
 	on click:yield .01*bread:ps bread
+	on click:toast You earned .01*bread:ps bread!
 	movement:onLeft bounce wiggle moveRight
 	icon:icons[4,2]
 	frequency:5
