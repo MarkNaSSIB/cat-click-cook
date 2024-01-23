@@ -82,8 +82,9 @@
 }
 #box-buildings
 {
-	height:70%
+	height:70%;
 	padding-bottom:48px;/* this is to accommodate the info and settings buttons */
+	overflow-y:scroll;
 }
 
 #box-upgrades
