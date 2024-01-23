@@ -82,7 +82,6 @@
 }
 #box-buildings
 {
-	top:25%;
 	padding-bottom:48px;/* this is to accommodate the info and settings buttons */
 }
 
