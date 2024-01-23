@@ -44,7 +44,7 @@
 	top:0px;
 	bottom:0px;
 	overflow:hidden;
-	width:60%;
+	width:80%;
 	position:absolute;
 }
 #box-res.fullWidth
@@ -82,12 +82,13 @@
 }
 #box-buildings
 {
+	height:80%
 	padding-bottom:48px;/* this is to accommodate the info and settings buttons */
 }
 
 #box-upgrades
 {	
-	height:25%;
+	height:20%;
 }
 
 #box-buildings>.box-header
