@@ -83,16 +83,15 @@
 }
 #box-buildings
 {
-	height:67%;
-	top:33%;
+	position:relative;
+	height:74%;
+	top:10%;
+	padding-bottom:48px;/* this is to accommodate the info and settings buttons */
 }
 
 #box-upgrades
 {	
-	height:33%;
-	top:67%;
-	padding-bottom:48px;/* this is to accommodate the info and settings buttons */
-
+	height:25%;
 }
 
 #box-buildings>.box-header
