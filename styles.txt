@@ -69,22 +69,31 @@
 	right:0px;
 	top:0px;
 	bottom:0px;
-	width:40%;
+	width:20%;
 	position:absolute;
 }
 #box-buildings,#box-upgrades
 {
 	top:0px;
 	bottom:0px;
-	width:50%;
 	right:0%;
 	overflow-x:hidden;
 	overflow-y:scroll;
-	padding-bottom:48px;/* this is to accommodate the info and settings buttons */
 	position:absolute;
 }
 #box-buildings
-{right:50%;}
+{
+	height:67%
+	top:33%;
+}
+
+#box-upgrades
+{	
+	height:33%
+	top:67%;
+	padding-bottom:48px;/* this is to accommodate the info and settings buttons */
+
+}
 
 #box-buildings>.box-header
 {
