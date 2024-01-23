@@ -25,7 +25,7 @@ Layout
 	*buttons
 		contains:Buttons
 	*store
-		contains:buildings, upgrades
+		contains:upgrades, buildings
 	*buildings
 		contains:BulkDisplay, Buildings
 		header:Cats

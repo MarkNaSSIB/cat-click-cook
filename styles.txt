@@ -79,11 +79,9 @@
 	right:0%;
 	overflow-x:hidden;
 	overflow-y:scroll;
-	position:absolute;
 }
 #box-buildings
 {
-	position:relative;
 	top:25%;
 	padding-bottom:48px;/* this is to accommodate the info and settings buttons */
 }
