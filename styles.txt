@@ -83,13 +83,13 @@
 }
 #box-buildings
 {
-	height:67%
+	height:67%;
 	top:33%;
 }
 
 #box-upgrades
 {	
-	height:33%
+	height:33%;
 	top:67%;
 	padding-bottom:48px;/* this is to accommodate the info and settings buttons */
 
